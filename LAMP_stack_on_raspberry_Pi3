@@ -1,0 +1,291 @@
+# NOTES COPIED FROM (https://pchelp.ricmedia.com/setup-lamp-server-raspberry-pi-3-complete-diy-guide/)
+# Phil Welsby 15th December 2018
+
+Introduction
+
+[This guide has been fully updated in 2018 to reflect the changes to MySQL in Raspbian “Stretch” v9.x]
+
+You wouldn’t think a little PC like the Raspberry Pi 3 could handle the job of being a Web Server, 
+but it does, and performs flawlessly too. Today I will show you how to source genuine Raspberry Pi 3 hardware, 
+then setup a fully fledged LAMP Server (Linux, Apache, MySQL, PHP) along with instructions to install WordPress. 
+You’ll also know how to access your web server via FTP, SSH and PHPMyAdmin. 
+We will be using the latest version of Raspbian “Stretch” v9.x.
+
+Hardware
+
+
+ 1   Raspberry Pi 3 motherboard/SBC
+ 2   A suitable case for your Pi
+ 3   8GB (or more) MicroSD card class 10
+ 4   Raspberry Pi Micro USB power supply
+ 5   LAN Network cable
+
+There are really only two official suppliers of Raspberry Pi gear: RS Components and Farnell/Element14. 
+Both sell world-wide with Farnell selling smaller quantities via authorized resellers. 
+Below you will find links to the entire list of resellers for Element14, Farnell, 
+and a link to all the countries that RS Components serves. 
+I do strongly urge you to only buy from these suppliers or their authorized resellers.
+
+    Raspberry Pi 3 Official & Authorized Resellers
+
+https://www.element14.com/community/community/raspberry-pi
+https://www.farnell.com/raspberrypi-consumer/approved-retailers.php?skus=2525226~1
+http://www.rs-components.com/index.html
+
+Burn Raspbian to SD Card
+
+Once you have finished downloading the Raspbian Zip file, 
+follow the instructions below to burn the IMG file to your MicroSD card.
+
+1    Unzip the .img file and take note of the file location
+2    Visit etcher.io and download the Etcher Image Burner for Windows, MAC or Linux and install
+3    Insert your MicroSD card into your PC’s card reader, take note of the drive letter assigned to it
+4    Run Etcher and select the .img file you unzipped earlier
+5    Make sure Etcher has selected the correct drive letter, 
+     if not then change it to your SD card’s drive letter (Important!)
+6    Once you’re sure the right .img file and drive letter is selected, click the Flash! button 
+7    Once Etcher has finished, remove the MicroSD card and insert into your Raspberry Pi
+8    Now connect up a USB keyboard (mouse not required), HDMI, LAN network cable and have the power supply 
+     plugged into the power socket and unit but don’t turn it on just yet
+
+Setup Raspbian
+
+Once you have your Raspberry Pi setup and plugged in, turn the power switch on via wall socket 
+(there is no on/off switch for the Pi) and look for the boot up screen which resembles a 
+Debian-like boot up process. Debian will automatically expand the filesystem and reboot. 
+After the reboot sequence has finished, you should now be looking at the login prompt
+Let’s login with the default username pi and password raspberry (use the Enter key after each command):
+
+Now let’s setup your Pi, enter the following command (type raspberry if Debian requests a password for sudo):
+sudo raspi-config
+
+then change the following settings:
+
+
+    Note* Use the Arrow keys to move up and down, use Enter key to select/confirm, use Tab key to select Cancel or Finish
+1    Select Change User Password then Enter, type a strong password, then confirm
+2    Select Hostname, Ok to alert prompt, then type lamp for hostname (or anything you want) then Ok
+3    Select Interfacing Options, select SSH, then Yes to enable, then Ok
+4    On Home Screen, hit Tab key until the <Finish> item is selected, hit Enter to reboot
+
+Install LAMP Server Packages
+
+Before we install the LAMP packages, we need to update Raspbian:
+1    sudo apt-get update
+2    sudo apt-get upgrade -y
+
+Install Apache2
+
+Once Raspbian has finished installing updates, we can now install the LAMP packages, we start with Apache2 and we also want to enable mod_rewrite:
+sudo apt-get install apache2 -y
+sudo a2enmod rewrite
+sudo service apache2 restart
+
+We’re using the -y flag which will automatically install required and suggested Apache2 packages. 
+We need to change one setting on Apache2 to allow .htaccess overrides in the /var/www directory, 
+so open sudo nano /etc/apache2/apache2.conf and change the AllowOverride None to AllowOverride All as shown below:
+
+
+
+	
+<Directory /var/www/>
+	Options Indexes FollowSymLinks
+	AllowOverride All
+	Require all granted
+</Directory>
+
+…then restart Apache2:
+	sudo service apache2 restart
+
+Now we need to find the IP address of your Pi, so type the following command:
+ifconfig eth0
+
+Look for inet addr: 192.xxx.x.xxx which will show your Pi’s IP address 
+(it could also start with 10.x.x.x or 172.x.x.x). 
+Go to any desktop computer that’s connected to your local network and enter the 
+IP address into your browsers address bar ie. http://192.xxx.x.xxx and hit Enter. 
+You should be presented with the following Apache2 Debian Default Page:
+
+DISPLAY SHOULD NOW SHOW APACHE HOME PAGE WITH "It Works!" AT THE TOP OF THE PAGE
+
+Install PHP
+
+Now let’s install PHP by entering the following command:
+sudo apt-get install php libapache2-mod-php -y
+
+When finished installing PHP, we need to test it’s working, so let’s create a new PHP file:
+	
+1   cd /var/www/html
+2   sudo nano index.php
+
+Go to your web browser again and enter the IP address of your Pi just like we did before, 
+or if you’re still on that page, hit Ctrl + F5 to refresh. 
+You should be greeted with a blank webpage that just says “Hello World“.
+
+Install MySQL
+
+Now we install the MySQL database engine by typing the following command:
+sudo apt-get install mysql-server php-mysql -y
+sudo service apache2 restart
+
+Install phpMyAdmin
+
+In order to manage our MySQL databases, it’s far easier to use phpMyAdmin 
+so let’s go ahead and install it by entering the following command, 
+but note* you’ll be asked the following questions during the installation process:
+
+
+1   Automatic Configuration? – Choose [*]apache2 with your Spacebar, hit Tab then Enter
+2   Configure database for phpmyadmin with dbconfig-common? – Choose Yes
+3   phpMyAdmin application password – [enter new password] [confirm new password] this is for logging into the phpMyAdmin web interface
+
+Once you are ready, type the following command:
+sudo apt-get install phpmyadmin -y
+
+
+Now let’s check if phpMyAdmin is working by entering the IP address of your Pi into your web browsers address bar 
+appended with /phpmyadmin/, like this: http://192.xxx.x.xxx/phpmyadmin/ hit Enter 
+and you should be presented with the standard phpMyAdmin login page:
+
+…now login with username: phpmyadmin and password that you entered during phpMyAdmin setup.
+
+Setup FTP
+
+Now we need to install and setup VSFTPD and lock-down user pi to the /var/www folder, 
+so let’s install the FTP service with the following command:
+sudo apt-get install vsftpd -y
+
+We need to open the sudo nano /etc/vsftpd.conf file and comment out the following two options:
+
+	
+local_enable=YES
+ssl_enable=NO
+
+(ADD HASH TO BEGINING TO COMMENT OUT AS BELOW)
+ 
+#local_enable=YES
+#ssl_enable=NO
+
+…then add this code to the very bottom of the file:
+
+	
+# CUSTOM
+ssl_enable=YES
+local_enable=YES
+chroot_local_user=YES
+local_root=/var/www
+user_sub_token=pi
+write_enable=YES
+local_umask=002
+allow_writeable_chroot=YES
+ftpd_banner=Welcome to my Raspberry Pi FTP service.
+
+
+We also need to add user pi to the www-data group, 
+give ownership of the /var/www folder to www-data user and group, 
+change user pi’s home folder to same, and loosen some permissions on the /var/www folder:
+	
+   1 sudo usermod -a -G www-data pi  
+   2 sudo usermod -m -d /var/www pi 
+   3 sudo chown -R www-data:www-data /var/www
+   4 sudo chmod -R 775 /var/www
+
+
+…then restart the VSFTPD service:
+sudo service vsftpd restart
+
+Login to FTP (VSFTPD) Service
+
+You can now open your FTP program and setup an FTP connection with the following settings:
+
+    Host – 192.xxx.x.xxx (IP address of your Pi with no prefix)
+    Port – 21
+    Protocol – FTP (File Transfer Protocol)
+    Encryption – Use explicit FTP over TLS if available
+    Logon Type – Normal (username & password)
+    Username – pi
+    Password – [enter password]
+
+Install WordPress, Summary
+
+Content Management Systems like WordPress are a fantastic way to organize and manage your web content 
+and are widely used, so I’ll show you how to install it on your Pi.
+
+Install WordPress
+
+After installing your LAMP server, login as pi, then install WordPress CMS by entering the following commands 
+(note* the rm * command will delete everything inside the /var/www/html folder, 
+so if you have any files in there, back them up to another location before performing this command):
+1 cd /var/www/html
+2 sudo rm ./*
+3 sudo wget http://wordpress.org/latest.tar.gz
+
+Now we want to extract the tarball and move the files into root directory, enter the following commands:
+sudo tar xzf latest.tar.gz
+sudo mv wordpress/* .
+sudo rm -rf wordpress latest.tar.gz
+
+Now let’s check the current ownership and permissions on the files and folder, 
+then change ownership to www-data user with the following commands 
+(don’t forget the dot at the end of chown command):
+sudo ls -l
+sudo chown -R www-data: .
+sudo ls -l
+
+The ls -l command will list all files, folders and their permissions.Setup WordPress Database
+
+Now we need to create a MySQL user and database for your WordPress installation via the command line, so let’s login to MySQL:
+sudo mysql
+
+We should now be in the MySQL command line interface that shows mysql> prompt. 
+To create the WP database user and database, we enter the following commands 
+(note* replace [enter password] with your password, we’ll be using this when we setup WordPress later):
+
+ 1 create user 'wordpress'@'localhost' identified by '[enter password]';
+ 2 create database wordpress;
+ 3 grant all privileges on wordpress.* to 'wordpress'@'localhost';
+ 4 flush privileges;
+ 5 exit;
+
+Your WordPress database is now setup.
+
+Install WordPress
+
+Now let’s install WordPress by entering the IP address of your Pi ie. http://192.xxx.x.xxx/ and hit Enter, 
+you should be presented with the following screen:
+(THE WORDPRESS HOME SCREEN SHOULD NOW BE VISIBLE)
+ 1 Choose your language and click Continue
+ 2 Review details then click the Let’s Go button
+
+Enter database details as follows (replace the xxxx with some random characters for extra security) then click Submit:
+
+ 1   Database Name – wordpress
+ 2   Username – wordpress
+ 3   Password – [database password]
+ 4   Database Host – locahost
+ 5   Table Prefix – wp956_ (replace 956 with anything you wish, this is for security)
+
+Now click Run the install button.
+
+Enter the website name/title, an Admin username and password, an admin email address, 
+and if you don’t want search engines to index this website, 
+check the Discourage search engines from indexing this site check box 
+(highly recommended for development servers) then click Install WordPress button.
+
+You should now be inside the Admin section of your shiny new WordPress install running on your Raspberry Pi, congrats.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,28 @@
+Groups of error codes
+
+AO – EEPROM, Firmware or ROM issue
+C1 – Main Charge Issue
+C4 – Transfer Voltage Issue
+E6 – DSPF Shading Issue
+E7 – HDD/ MFP/Scanner - Information processing issues
+F0 – Finishing Options Issues
+F1 – Other Options Issues
+F2 – Toner Supply Issues
+F3 – Main machine paper trays
+F9 – Communication errors between PWBs
+H2 – Fuser Thermistor Issues
+H3 – High Temp Issues in the fuser
+H4 – Low Temp Issues in the fuser
+H5 – Continuous paper jams
+L1 – Scanner Feed trouble
+L2 – CCD cooling Fan
+L3 – Scanner Return trouble
+L4 – Motor/Fan trouble
+L6 – Polygon Motor
+L8 – Communication between MFP & Mother PWB
+U1 – Battery Trouble
+U2 – EEPROM issues
+U5 – Document feeder Issues
+U6 – LCC Issues
+U7 – Vendor machine error
+U9 – Touch Panel trouble

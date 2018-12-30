@@ -1,0 +1,227 @@
+# notes from the Sharp Academey technical module 
+# phil welsby 29th december 2018
+
+notes from video:-
+1) Support for SRA3 paper (Supplimentary Raw Format A) 
+   320mm width 450mm height. With SRA3 paper full sized A3 prints can be 
+   produced with the additional crop marks.
+2) Tandem draws can be filled without interupting the print job.
+3) Stitch up to 5 sheets with staple-less stapling. 
+   The model MX - ** 70N / **60N / ** 50N offers a variety of finishing 
+   options. The Inner Finisher MX-FN27 and External Finisher MX-FN30 and 
+   MX-FN31 are equipped with manual and stapleless stapling.
+4) Office Direct Printing allows users to print (Word, Excell and Powerpoint)
+   straight from USB, Mobile device or Cloud account.
+5) With Sharpdesk it is possible to scan to a moblile device by selecting the
+   destination.
+6) OCR allows documents to be scanned and converted to a range of formats.
+   Including (Searchable PDF's and Office formats).
+7) Pull-Print allows documents to be retreived from any printer.
+8) 'THE BIG PAD' interactive whiteboard, is ideal for workgroup discussions.
+   Notes can be added then saved to the cloud for everyone to access, using a
+   advanced single sign on.
+9) OSA offers more solutions.
+
+			Phoenix		Griffin		Sphinx
+
+	LCD		10.1 inch	10.1 inch	7 inch
+
+	Feeder		DSPF		RSPF		RSPF
+			(and RSPF)
+
+	HDD		STD(500GB)	STD(250GB)	STD(250GB)
+	PCL		STD		STD		STD
+	PS		STD		OPT		OPT
+	SCAN		STD		STD		STD
+COMPRESSED PDF		STD		OPT		N/A
+	OCR		STD		N/A		N/A
+	OSA		STD		OPT		OPT
+	Wi-Fi		STD		OPT		OPT
+
+CURRENT RANGE
+--------------
+
+Currently the range consists of the following models:
+Spinx (RSPF, Recirculating Single Pass Feeder)
+MX-2630
+Griffin (RSPF, Recirculating Single Pass Feeder)
+MX-3050,  MX-3550, MX-4050, MX-5050, MX-6050
+Phoenix (RSPF, Recirculating Single Pass Feeder)
+MX-3060, MX-3560, MX-4060
+Phoenix (DSPF, Duplexing Single Pass Feeder )
+MX-3070, MX-3570, MX-4070, MX-5070, MX-6070
+
+OPTIONAL EXIT TRAY
+------------------
+All models in the CR4 range can now output documents from fax, 
+copy or print sources separately thanks to the addition of 
+optional exit trays.
+
+MX-TR20 Separator tray can be fitted with the Centre exit tray 
+(MX-TU16) or The Relay unit (MX-RB25) giving an extra output 
+tray when using an external Finisher. (Cannot be used with MX-FN27 
+Internal finisher).
+
+MOTION SENSOR
+-------------
+The motion sensor can be activated in System settings - Eco settings 
+- Sleep mode power level. Default setting is 'Off', there is a drop 
+down menu to switch to 'On'.
+
+EASY SCAN/COPY/FAX
+------------------
+As well as easy copy mode there is also easy scan and easy fax modes 
+which simplify the options with the selected screen. These options 
+are only on the new Phoenix/Griffin.
+
+The Phoenix/Griffin series, now automatically sets resolution/blank 
+page skip/simplex or duplex/correction of original direction by 
+pressing "Auto settings" on easy scan mode.
+
+NEW SCREEN ICON ADDED
+---------------------
+A new screen Icon, LAN cable connection has been added to help fault 
+find a poor (or no) network connection. This can be turned on or off 
+via system settings. As well as the LAN cable icon, there is a new 
+message for fax transmission "Sending has failed" for example if the 
+cable is not connected during the time of fax transmission.
+
+ESTIMATED JOB START TIME
+------------------------
+
+Estimated Job Start Time. Technicians can select ON/OFF to display 
+this function for enabling and disabling the setting by using 
+SIM 55-3 SW 35-1
+
+(default is OFF)
+
+PREVIEW IMAGES BEFORE PRINTING
+------------------------------
+
+Phoenix/Griffin models now offer the ability to preview images and 
+files on screen directly from for example, a USB storage device, 
+before printing.
+
+PS / PDF files are not supported as standard and need to be enabled 
+in SIM 55-03 SW34 bit 3
+
+DOWNLOAD SCAN TO HDD
+--------------------
+
+with SMB enabled means scanned documents can be saved and be 
+downloadable from the internal HDD.
+
+SECURITY
+--------
+HCD-PP is the successor to IEEE2600.x and is the new industry standard. 
+Sharp are at the forefront by incorporating HCD-PP standards into all 
+models in the CR4 range.
+
+REMOVE TONER CARTRIDGE
+----------------------
+
+Remove toner cartridge button is in the system settings when logged in
+as administrator. Also can be done using SIM 10-3
+
+SIM MODE
+--------
+
+There is now an easy mode for simulation. This can be toggled with the
+Classic mode by pressing the mode setting key at the top of the display.
+
+NEW/CHANGED SIMULALTIONS
+------------------------
+
+Sim 06-09	Scanner lock position
+Sim 08-10	MC total current setting
+Sim 10-03	Test of toner discharge sensors
+Sim 22-14	Toner cartridge counter
+Sim 22-41	Jam code list and content. Note 3 new jam types registered
+
+_LE  = Life end(feed roller counter reached life)
+_RT  = Retry. (The PF rollers have tried to re-feed, worn rollers)
+_1st = First sheet jam. (1st sheet of paper since draw closed has jammed)
+
+
+Sim 22-43	Lists jam history, date time counter etc
+Sim 25-10	Developer/drum serial number setting
+Sim 26-10	Additional setting of Job separator
+Sim 26-66	Simulation Password set (4 digit 0-9, preset 0000) refer to
+		Sim 26-85
+Sim 26-71	Trial mode Web browsing kit - no longer available
+Sim 26-79	Security setting (Sim Lock Function) SEE NOTE BELOW
+
+NOTE
+----
+The method to enter service simulation mode on previous machines was open to 
+the public. Simulation Mode password protection is needed for security 
+management. Service personnel can select whether it enable or disable 
+(Factory Default is “OFF”).
+
+Sim 56-08	Sim for downloading ICC profile has newly been established
+		(same as web page)
+Sim 56-99	Save various log data all at once to USB memory. Includes
+		Sim 56-04, 56-05, 56-06, 56-07, 00-11
+Sim 61-11	Adjustment density has been changed
+Sim 61-14	Sim for setting each laser power at the same time has been
+		added. One point -> 10%
+Sim 26-79	Security setting
+		'Service'-password required for entering Sim mode.
+		Default: service
+		Technician can set this setting to 'ON' by changing Sim 26-79
+		from '0' to '1'.
+Sim 26-85	Simulation function setting. Protection to change from Easy
+		Mode to Classic Mode. Passcode required, refer to Sim 26-66
+
+NOTE
+----
+Sim 26-85 turns on and off the password protection from easy to classic mode
+for simulation. The UK market goes straight into classic simulation mode, so
+the password setting is redundant.
+
+
+Sim 30-30	Motion sensor check. Used to check the operation and
+		sensitivity of the motion sensor. 
+Sim 63-03	Scanner (CCD) Colour Balance and Auto Adjustment.
+		New SIT-Chart -P/No.:UKOG-0356FCZZ
+
+
+ADMIN/SERVICE PASSWORD RESET PROCEDURE
+--------------------------------------
+
+1) Double tap the home key
+2) Touch the lower left area of the screen
+3) Special 10-key operation
+   For Admin Press 4>6>3>//
+   For Service Press 5>8>7>//
+4) Write down the reset key issue code
+5) Send the details to Sharp as per the Technical Bulletin
+6) Enter the 20 digit reset key sent back by Sharp
+7) A successful result will reset the password back to its default value
+
+
+WEB PAGE
+--------
+
+There are 7 manuals available for download in PDF format from the MFP
+
+1) Users Manual
+
+2) Quick Start Guide
+
+3) Web Page Settings
+
+4) Software Setup Guide
+
+5) User Interface Customise Guide
+
+6) Print Release Settings Guide
+
+7) Troubleshooting
+
+When logged into the service web page there are up to 20 different
+paper types that can be set up in the 'Paper Settings' menu.
+
+
+PRINT RELEASE
+-------------

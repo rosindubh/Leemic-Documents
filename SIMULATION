@@ -1,0 +1,42 @@
+Group of Simulation codes
+
+Sim 1 - Scanner Self Test
+Sim 2 - DSPF Self Test
+Sim 3 - Finisher Operation / Test
+Sim 4 - Desk/ LCC Operation / Test
+Sim 5 - Lamp Operation / Test
+Sim 6 - System Load Operation / Test
+Sim 7 - Device Aging Operation / Test
+Sim 8 - High Voltage Operation / Test
+Sim 9 - Duplex Operation / Test
+Sim 10 - Toner Motor Operation / Test
+Sim 13 - Clear / Cancel – U1 Codes
+Sim 14 - Clear / Cancel – H3, H4 & H5 Codes
+Sim 15 - Clear / Cancel – LCC U6 Codes
+Sim 16 - Clear / Cancel – U2 Codes
+Sim 17 - Clear / Cancel – Paper feed codes
+Sim 21 - Maintenance Cycle Configuration
+Sim 22 - Data Output / Check – Display & Print
+Sim 23 - Print Data OutputSim 24 - Data Counter Clear
+Sim 25 - DV Auto Adjustment / Monitor
+Sim 26 - Device Configuration
+Sim 30 - Sensor Operation / Test
+Sim 40 - Bypass Operation / Adjustment
+Sim 41 - OSS Operation / Adjustment
+Sim 43 - Fuser SettingSim 44 - Process Control
+Sim 46 - Copy & Image Density Adjustment
+Sim 48 - Magnification & Motor Adjustment
+Sim 49 - Firmware Update
+Sim 50 - Image Position Adjustment
+Sim 51 - Resist Roller Adjustment
+Sim 53 - Document Feeder Adjustment
+Sim 55 - MFP Data Setting
+Sim 56 - MFP Data Import / Export
+Sim 60 - Memory Operation / Test
+Sim 61 - LSU Adjustment
+Sim 62 - HDD Operation / Test
+Sim 63 - CCD Operation / Adjustment
+Sim 64 - Self Test Print
+Sim 65 - LCD Operation / Adjustment
+Sim 66 - Fax Operation / Adjustment
+Sim 67 - Printer Board Operation / Adjustment
