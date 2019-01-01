@@ -1,0 +1,34 @@
+# Useful information on Wireshark taken from WiresharkStarter.pdf
+# phil welsby 1 january 2019
+
+
+Official sites
+Home page: http://www.wireshark.org/
+Manual and documentation: http://www.wireshark.org/docs/
+Wiki: http://wiki.wireshark.org/
+Blog: http://blog.wireshark.org/
+Source code : http://anonsvn.wireshark.org/viewvc/
+Articles and tutorials
+How to Use Wireshark to Capture, Filter, and Inspect Packets: http://www.howtogeek.
+com/104278/how-to-use-wireshark-to-capture-filter-and-inspect-packets/
+5 Killer Tricks to Get the Most Out of Wireshark: http://www.howtogeek.
+com/106191/5-killer-tricks-to-get-the-most-out-of-wireshark/
+Network Analysis with Wireshark On Ubuntu 9.10: http://www.howtoforge.com/
+network-analysis-with-wireshark-on-ubuntu-9.10
+Packet Sniffin' Tips and Tricks that I wished I would have known earlier in my career...:
+https://learningnetwork.cisco.com/blogs/network-sheriff/2008/08/25/
+packet-sniffin-tips-and-tricks-that-i-wished-i-would-have-known-
+earlier-in-my-career
+Community
+Official mailing list: https://www.wireshark.org/mailman/listinfo/
+wireshark-dev
+Unofficial forums: http://www.techsupportforum.com/forums/f139/
+ethereal-wireshark-131427.html
+Official IRC channel: irc://irc.freenode.net/wireshark
+User FAQ: http://www.wireshark.org/faq.html
+Blogs
+Wireshark official blog: http://blog.wireshark.com/
+The Cisco blog is a very useful source for getting the latest information on network
+sniffing: https://learningnetwork.cisco.com/
+The tech republic blog is also an important source to learn about Wireshark:
+http://www.techrepublic.com/blog/opensource/
