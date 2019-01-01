@@ -1,0 +1,33 @@
+# notes taken from youtube video (https://www.youtube.com/watch?v=VGgTmxXp7xQ)
+# phil welsby 30 december 2018
+
+SYNTAX
+--------------------------------------------------------
+grep 'text you are searching for here in inverted commas' <file_name here>-
+--------------------------------------------------------
+
+eg:-
+grep 'clutch' MASTER.txt
+
+Switches that can be added to improve the search:-
+
+w = search for a whole word
+i = makes the search non case sensitive
+n = gives the line number
+
+-A 2 will give the 2 lines after
+-B 2 will give the 2 lines before
+-C 2 will give the 2 lines before and after
+
+eg:-
+grep -win -C 2 'machine' MASTER.txt
+
+This will search for the word 'machine' as a whole word, ie not 'machines',
+both upper and lower case. It will give the line number and the 2 lines 
+before and after the word 'machine'.
+
+To search all the files in a given directory add:-
+./* in place of the file name.
+
+eg:-
+grep -win -C 2 'machine' ./*
