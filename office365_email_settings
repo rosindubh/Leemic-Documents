@@ -1,0 +1,10 @@
+How to setup scan to Office 365 email
+from the Sharp MFP?
+
+Check the following settings under System Settings ->
+Network Settings -> Service Settings -> SMTP:-
+Primary Server: smtp.office365.com
+Port Number: 587
+Sender Address: ****@onmicrosoft.com
+SSL: ON
+SMTP Authentication: ON
