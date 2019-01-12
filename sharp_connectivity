@@ -1,0 +1,190 @@
+# notes from connectivity course taken on sharp academy (software)
+# 10 january 2019 phil welsby
+
+Basic Networking Requirements.
+
+TESTING CONNECTIVITY
+--------------------
+
+ipconfig displays ip addresses of the host and other configuration info.
+
+ipconfig/all displays all information about the connection.
+
+ipconfig/release releases the current ip address given by the DHCP server.
+
+ipconfig/renew requests a new ip address from the DHCP server.
+
+nslookup reports the ip address of an entered host name or the host name of
+an entered ip.
+
+The mac address will be displayed using ipcofig/all or getmac command.
+
+
+CABLING AND CONNECTORS
+----------------------
+
+Until recently most networks have used unshielded twisted pair (UTP) or
+sheilded twisted pair (STP) cabling to connect computers or other devices
+in the network. Both are composed of four pairs of wires. The wires in each
+pair are twisted around each other, and the pairs are twisted together and
+bundled within a covering.
+
+UTP cable comes in catagories. Each catagory has a specific use, number of
+twists per foot (TPF), and a speed rating. The more twists, the less 
+crosstalk and electrical magnetic interference (EMI) that affects the data
+on the cable.
+
+Cat3 cable used to be the dominant, however it only operates at up to 10 Mbps
+with about two or three twists per foot.
+
+Cat5 cable is the virrent standard. It operates at up to 100 Mbps. Cat5e 
+operates at up to 1 Gbps. These cables have a range of 20 twists per foot.
+
+Cat6 cables use higher quality materials for data conduction and have the
+potential to operate at up to 2.5Gbps.
+
+RJ-45 connectors on UTP cables look a lot like the regular RJ-11 snap-in
+telephone connectors, except they're a little larger. The RJ-45 connects 
+8 wires, as opposed to the 6 in the RJ-11.
+
+ETHERNET NETWORKS
+-----------------
+
+The network speed that Sharp MFP's operate at can be fixed in Test Command
+55-03 Switch6. We reccommend leaviing this set to default value 'Auto'.
+
+10-Mbps Ethernet operates at a speed of 10 megabits per second (Mbps) of data
+It later became known as Ethernet IEEE 802.3
+
+100-Mbps Ethernet (also known as Fast Ethernet) operates at a speed of100 Mbps. 
+It can also handle data at 10 Mbps, and this feature allows devices
+running at slower speed tooperaate on the same network with those operating at
+100 Mbps.
+
+1000 Mbps Ethernet (also called Gigabit Ethernet) operates at speed of 1000 Mbps
+(1 gigabit per second). It's the newest version of Ethernet and is intended 
+for large, high speed LANs and heavy-traffic server connnections. Few, if any
+home networks require Gigabit Ethernet. Most current Ethernet installations
+use shielded twisted pair (STP) cable, unshielded twisted pair (UTP) cable, or
+fibre optic cable.
+
+NETWORK SETTINGS
+----------------
+
+The quick settings page can be used to make basic configuration changes
+however it is reccommended to use the Protocol and Services settings pages to
+fully configure these options.
+
+DNS (Domain Name Service) is required for name resolution. Primary server and
+secondary server (if used) must be an IP address. The domain name is in the
+form 'domain.com'.
+
+SMTP (Simple Mail Transport Protocol) is used to enable the machine to send
+e-mail for scanning or alerts. SSL will be required if using a secure mail
+server.
+
+SMTP authentication - maybe required depending on the settings of the mail
+server.
+
+SNTP (Simple Network Time Protocol) setup syncronisation with a time server.
+
+WINS (Windows Internet Naming Service) not used much anymore. Microsoft
+attempt at DNS.
+
+Keberos very secure method of authenticating. If you are using LDAP, this
+will need setting up.
+
+SMTP Server settings
+
+If your customer is using Microsoft Outlook and do not know their server
+settings a simple way to access these would be to follow the steps below.
+
+1) From MS Outlook select File.
+2) Select Info.
+3) Select Account Settings.
+4) Select the Change icon.
+5) The Email Server name will be displayed.
+
+NOTE do not make any changes but cancel after noting the details.
+
+mDNS (Multicast DNS) is the zero configutation option the MFP uses to 
+advertise itself on the users network. When enabled the device will be
+available in a Mac or Windows environment as a print device. Also known as
+bonjour. My Computer, click network, it will browse nerwork for available
+devices. Advertising themselves nia mDNS. Most IT people like to switch it off
+to reduce network traffic and force printing through server.
+
+SNMP (Simple Network Management Protocol) this is used to pass information
+relating to the status of the device. For example SRDM (Sharp Remote Device
+Manager) and Onestop will use SNMP to find out how much toner is in the MFP.
+Used for Routers, servers, etc. SRDM uses this technology.
+
+Print Port Settings.
+--------------------
+
+The LDP port will allow printing using the LPD/LPR protocol. This is enabled
+by default but can be individually switched off. The Banner option if enabled
+will print a job report separator page between each job.
+
+The RAW port is usually used for Windows Printing and usually on port 9100.
+Ensure 'Use bi-directional' is selected for AS400 Unix environments.
+
+WSD (Web Services on Devices) makes the device advertise itself in windows as
+a printer using mDNS. This is disabled by default on the new Generation 4
+models.
+
+LDAP (Lightweight Directory Access Protocol) This allows users to search for
+E-Mail addresses to scan to. Port number 3268 can only be used with Win 2000
+server onwards. This is the MS global catalogue so requires no search root.
+
+Name:A user friendly title for the search.
+Search Root:location of the directory that users are stored (only required
+when using port 389).
+LDAP Server:IP Address or Host name of server.
+Server Type:only required if user details are not stored int the standard
+locations.
+Port Number:389 (default) or 3268
+User Name:This needs to be a valid user account with rights to access an
+LDAP search.
+Password:Password of the above user.
+Authentication Type:NTLM is reccommended for Microsoft Exchange.
+Connection Test:This can be used to check the above settings.
+
+Proxy Settings
+--------------
+If the customer uses a proxy server to access the internet these details can
+be entered here. A proxy server is only required to access services outside of
+the local network. For example when accessing cloud services. Proxy server
+setttings can be added to the MFP via System Settings/Network Settings/Proxy
+Setting. (Requires Admin Login).
+
+WIRELESS NETWORKS AND MOBILE PRINTING
+-------------------------------------
+
+WLANs are popular in places where networking cables are difficult to install.
+All wireless devices that communicate with each other must have the same
+Service Set Identifier (SSID), which is the unique name of the wirless 
+network they are using. Devices using different SSIDs can't communicate.
+
+Wireless devices can communicate directly in what's called ad-hoc mode or
+they can connect to a LAN by way of a wireless access point (WAP). Access
+points are placed so that nodes can access at least one access point from 
+anywhere within the coverage area. When devices use an access point, they
+communicate through the access point instead of communicating directly. This
+is known as infastructure mode.
+
+Although WLANs have some obvious advantages in places where running cables
+would be difficult or expensive, WLANs tend to be slower than wired networks,
+especially when they are busy. Another problem with WLANs is security.
+Companies are often reluctant to use them.
+
+Wireless Connectivity has two modes.
+1) Infastructure mode this will disable the wired connnection and connect
+to an existing wireless access point.
+
+2) Wired/Wireless (Ad-hoc) mode will use the wired network port but also 
+create an access point of the MFP so mobile users can connect.
+
+SECURITY
+-------
+

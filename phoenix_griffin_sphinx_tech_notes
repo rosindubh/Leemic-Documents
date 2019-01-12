@@ -225,3 +225,369 @@ paper types that can be set up in the 'Paper Settings' menu.
 
 PRINT RELEASE
 -------------
+This serverless Print Release feature uses an MFP as a print server (primary)
+and up to 5 additional MFP's (secondary) can be intergrated into the system
+to function within a closed sub-network. This feature provides better data
+protection, increases user friendliness and also saves resources as misprints
+are minimised.
+
+TO CONFIGURE BEST TO CONSULT THE PRINT 
+RELEASE  SETUP  GUIDE  FOR THE MACHINE
+
+THE FOLLOWING  SETTINGS  MUST  BE MADE
+-----------------------------------
+1) System Settings - Printer Settings - print release settings
+2) System Settings - Secutity Settings - Port Settings
+3) Polling pressure button up on Home screen.
+4) Driver Setting Tab Card Job Handling-> 'print release'
+
+OCR scan
+--------
+The Phoenix/Griffin models incorporate an OCR function. This function
+supports searchable PDF and scan to office documents (Word, Excel and
+Powerpoint).
+If a replacement HDD is required you will need to update the new HDD 
+with OCR and Watermark data for the machine to work corectly.
+
+MS Office files
+---------------
+Direct printing from Microsoft Office is now available on CR4 from
+USB, portable devices, the Cloud and of course MFP's and printers.
+
+* For better linking of MFPs, mobile devices and cloud capabilities 
+MS Office files can be directly printed without a PC and MS Office 
+software on the Phoenix. 
+
+Multi Crop Scan
+---------------
+
+MFP scans multiple originals on the platen, this will allow the customer
+to copy small documents from the glass and it will output each of the
+small documents (e.g. receipts) onto one page per document. So 4 receipts
+are placed onto the glass, one scan and 4 pages will be printed with one
+receipt on each page.
+
+Business Card Scanning
+----------------------
+
+By utilising the OCR and Multi Crop Scan function the machine is capable of
+creating a list of business cards in electronic format for easy searching
+of contacts.
+
+Cloud Connectivity
+------------------
+
+Cloud connectivity had never been easier with the public cloud connection.
+There are many other Cloud devices, such as OneDrive, Sharepoint and Google
+Drive with an SSO function (Single Sign On) it has never been as easy to 
+connect your MFP to a cloud device.
+
+Cloud Connection Feature means that the MFP and Cloud services connects
+without an external server.
+
+The Users which have a cloud account can upload scan data and print the
+stored data via MFP.
+
+Microsoft OneDrive and Sharepoint:
+
+These services are included in the various Office 365 packages. This
+service is not sold sigular. OneDrive and SharePoint connectors supports
+the Office 365 Authentication method (Claim base authentication). Other
+methods such as ADFS authentication are not supported.
+
+Google Drive:
+All users start Google connector using their user's Google account.
+
+Effciency and productivity
+--------------------------
+
+Single Sign-On
+
+Single Sign-On for cloud systems like Goolge Drive, Sharepoint and One Drive
+allows for faster access to documents. Users no longer have to authenticate
+multiple times in order to obtain access to cloud services. This information
+is now associated with the registration process on the multifunction 
+product, which means that to retrieve the desired documents fewer steps are
+required.
+
+USB-Direct print
+
+With the Direct Print feature, in addition to the types of documents already
+available (.tiff, .jpeg, .txt and pdf files), MS Office files (.docx, .xlsx
+and .pptx files) are printed directly (from Office 2010).
+
+On the model MX-**60/70N, available by default.
+
+INSTALLATION
+------------
+
+It is reccommended that all the output options are installed before the
+developer installation procedure is initialised, otherwise an L4-11 error
+message will appear. If this is not possible for whatever reason, you can
+turn off the soft switch Sim 55-1, SW 24, Bit 7 temporarily. However do not
+forget to reset the switch to the initial position after the installation.
+
+Consumables
+
+MX-60GTBA
+Black toner cartridge (A4 5% coverage )
+  40,000 pages
+MX-60GTCA
+Cyan toner cartridge (A4 5% coverage)
+  24.000 pages
+MX-60GTMA
+Magenta toner cartridge (A4 5% coverage)
+  24.000 pages
+MX-60GTYA
+Yellow toner cartridge (A4 5% coverage )
+  24.000 pages
+MX-60GVBA
+
+Black developer
+
+(for 2700K drum revolutions)
+
+400K (30/35ppm)
+
+500K (40ppm)
+MX-60GVSA
+
+Colour developer
+
+(for 2700K drum revolutions)
+
+300K (30/35ppm)
+
+400K (40ppm)
+MX-60GRSA
+
+OPC Drum used for Black
+
+(for 2700K drum revolutions)
+
+200K (30/35ppm)
+
+250K (40ppm)
+MX-60GRSA
+
+OPC Drum used for Colour
+
+(for 2700K drum revolutions)
+
+150K (30/35ppm)
+
+200K (40ppm)
+
+MX-40GUSA
+
+
+MX-60GUSA
+
+OPC Drum unit used for Black
+
+(for 2700K drum revolutions)
+   OPC Drum unit used for Black (50/60 cpm)
+
+200K (30/35ppm)
+
+250K (40ppm)
+
+250K (50/60ppm)
+
+MX-40GUSA
+
+
+MX-60GUSA
+
+OPC Drum unit used for Colour
+
+(for 2700K drum revolutions)
+
+
+OPC Drum unit used for Colour
+
+150K (30/35ppm)
+
+200K (40ppm)
+
+200K (50/60ppm)
+MX-407MK
+Main Charger Kit used for Black
+
+200K (30/35ppm)
+
+250K (40ppm)
+MX-407MK
+Main Charger Kit used for Colour
+
+150K (30/35ppm)
+
+200K (40ppm)
+MX-607CU
+PTC Kit
+
+250K (30ppm)
+
+300K (35/40ppm)
+MX-607HB
+Toner collection container
+  50K
+MX-607FL
+Filter Kit
+  300K
+MX-607FB
+Fusing belt kit
+
+250K (30ppm)
+
+300K (35/40ppm
+MX-607LH
+Pressure roller kit
+
+250K (30ppm)
+
+300K (35/40ppm)
+MX-607B1
+Primary Transfer belt Kit
+
+250K (30ppm)
+
+300K (35/40ppm)
+MX-607TL
+Primary Transfer blade Kit
+
+250K (30ppm)
+
+300K (35/40ppm)
+MX-607U2
+Secondary Transfer roller Kit
+
+250K (30ppm)
+
+300K (35/40ppm)
+Service Units
+
+
+MX-607U1
+Primary Transfer belt Unit
+Service rotation
+MX-407FU
+Fusing unit (For 30/35/40 cpm)
+Service rotation
+MX-607FU
+Fusing unit (For 50/60 cpm)
+Service rotation
+
+
+Volume and Reliability
+---------------------
+
+			30ppm/35ppm			40ppm				50ppm/60ppm
+
+Machine Life		1 200 000 / 5 years		1 200 000 / 5 years		1 800 000 / 5 years
+
+Reccommended average		15 000				15 000				15 000
+monthly, Output
+Volume
+
+Max. Monthly Volume		140K/60K			175K/75K			175K/75K
+(exceptional) -
+BW CL
+
+MCBJ				20.000				20.000				20.000
+(Mean copies between
+Jams) Average number
+of prints between
+jams
+
+MCBF
+(Mean copies between		80.000				80.000				 80.000
+Failure) Average
+number of prints
+between incidents
+
+PM Cycle		        200.000				250.000				 250.000
+
+DRUM
+----
+
+The consumable life is specified by 1,350K (OPC Drum) or 2,700K (Developer) rotations.
+The Phoenix Griffin range drum life is now 1,6 times longer than that of Virgo
+(MX4140/5140N). There is also a new shaped main charger grid for optimal performance.
+The position of the drum now makes more even pressure on the cleaning blade.
+
+Maintenance DK, DC, DM, DY will indicate when the specified number of pages or
+rotations is reached as per previous Sharp models.
+
+MC Grid Bias for all colours is 592+/_5V Middle speed & 583+/-V Low speed
+
+DEVELOPER
+---------
+
+Long life developer
+
+The consumable life is specified by 1,350K (OPC Drum) or 2,700K (Developer) rotations.
+Therefore the page count life indicated below is for approximate guidence only.
+
+			
+				MX-2630		MX-3070N/MX-3570N		MX-4070N
+
+MX-60GVBA Black Developer	360K		400K				500K
+
+MX-60GVSA Colour Developer	300K		300K				400K
+
+Phoenix/Griffin has an improved developer refresh system up to 3.2 times longer than
+Virgo (MX-4140/5140) range.
+
+Toner and carrier in the developing unit are agitated and transported by the mixing
+roller. By stirring, toner and carrier are negatively charged by mechanical friction.
+The developing bias voltage (AC component and negative DC component) is applied to the 
+developing roller. Negatively charged toner is attracted to the exposed section on the
+OPC drum where the negative potential fails due to the developing bias. If the OPC 
+drum is not exposed, the negative potential is higher than the developing bias voltage, 
+and toner is not attracted. The toner sensor detects the toner supply state from the
+toner cartridge. In this machine, the toner density is detected by the toner sensor,
+but the toner supply operation is not controlled only by the toner density detection
+result. The toner density control is performed according to the process control data.
+Developer Bias For all colours is all models is -450+/-5V.
+
+FUSER
+-----
+
+Note:-
+Phoenix/Griffin fusers no longer have a cleaning web. The features of the
+belt-type fusing system are shorter warm-up time, lower power consumtion
+and a wider nip width.
+
+The fusing pressure control motor (PRM) rotates to turn ON the fusing pressure
+detector (HLPCD). Pressure release occurs when the machine shifts to the 
+preheat mode, when the machine shifts to the auto power shut off mode, when
+the power switch or the operation panel is turned OFF, when in envelope mode
+and finally when a jam occurs.
+
+New type thermostat is a fast responce and importantly non-resettable.
+Do not touch the dome as damage will cause incorrect temperature readings.
+
+IMPORTANT NOTE when replacing the PCU PWB the fuser must be removed until
+message on the screen appears (install fuser unit). Check Technical Handy
+Guide or Service Manual page 10-26. 
+
+Note:-
+This action must be done when installing a new fuser unit as well.
+
+
+					MX-2630		MX-3070N	MX-3570N
+									MX-4070N
+
+MX-607FB	Fusing Belt Kit		250k		250k		300k
+
+MX-607LH	Pressure roller kit	250k		250k		300k
+
+MX-407FU	Fusing Unit 230v	--------- for service rotation ---------
+
+
+DO NOT DISSASSEMBLE THE FUSER BELT UNIT AS IT IS FACTORY SET.
+There is no cleaning web for the 30/35/40 PPM machines.
+
+TRANSFER
+--------
