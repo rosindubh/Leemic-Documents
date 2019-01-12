@@ -2,13 +2,10 @@
 # (https://www.youtube.com/watch?v=wBp0Rb-ZJak)
 # phil welsby 31 december 2018
 
-istallation = 0.00 to 1.23
+installation = 0.00 to 1.23
 command line starts at 1.23
 cp su ls find touch rm mv = 1.23 to 2:36:13
 grep = 2:36:13 to 2:45:44
-
-
-
 
 NOTES
 ------
@@ -19,7 +16,7 @@ the files in it.
 sudo chmod changes the file mode bits (read, write and execute). They look like thi
 s -rw-rw-r-- (664 is this instance).
 
-rm dir/*      -> this will remove all files from a derectory but leave the directory 
+rm dir/*      -> this will remove all files from a directory but leave the directory 
 intact. To remove the directory and all its contents type:-
 rm - rf <directory name>
 
@@ -87,3 +84,23 @@ of printing to the screen.
 find . -type f iname '*.py' -exec grep -i -n 'function' {} + | tee function_in_python.txt 
 in the above code the pipe command '| tee function_in_python.txt' has been used. And this 
 will output the result to the file 'function_in_python.txt' and print to the screen.
+
+PROCESSES 2:45:30
+
+top - shows processes running in real time.  PID is process ID
+ps aux - shows the entire list as a capture
+ps aux can also be piped to grep to show running processes as in:-
+ps aux | grep firefox
+
+in order to get the PID (process ID) of an application use pgrep as in:-
+pgrep firefox
+
+you can use the kill command to stop or kill a process using its PID number as in:-
+kill -9 5274 this will kill process 5274 whatever that may be.
+
+if there are several processes running of the same type and you wish to kill them all
+you can use the killall commmand followed by the application name as in:-
+killall firefox
+
+SERVICES 2:52:37
+
