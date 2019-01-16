@@ -1,0 +1,17 @@
+# pin configuration for UART connection at JMW 
+# MX-M1055 connected to MX-FN21
+# error code F1-00 communication error between main machine and finisher
+# phil welsby 16 december 2019
+
+PCU CN15 
+pin 29 TXD_FIN
+pin 31 RXD_FIN
+pin 35 RES_FIN
+
+pin 6 = 24v
+pin 36/37 GND
+pin 12/14/20/16/18 = 5v
+
+Transfer belt kit MX900TT
+
+
