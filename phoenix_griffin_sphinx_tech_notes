@@ -1,22 +1,22 @@
-# notes from the Sharp Academey technical module 
+# notes from the Sharp Academy technical module 
 # phil welsby 29th december 2018
 
 notes from video:-
-1) Support for SRA3 paper (Supplimentary Raw Format A) 
+1) Support for SRA3 paper (Supplementary Raw Format A) 
    320mm width 450mm height. With SRA3 paper full sized A3 prints can be 
    produced with the additional crop marks.
-2) Tandem draws can be filled without interupting the print job.
+2) Tandem draws can be filled without interrupting the print job.
 3) Stitch up to 5 sheets with staple-less stapling. 
    The model MX - ** 70N / **60N / ** 50N offers a variety of finishing 
    options. The Inner Finisher MX-FN27 and External Finisher MX-FN30 and 
    MX-FN31 are equipped with manual and stapleless stapling.
-4) Office Direct Printing allows users to print (Word, Excell and Powerpoint)
+4) Office Direct Printing allows users to print (Word, Excel and Powerpoint)
    straight from USB, Mobile device or Cloud account.
-5) With Sharpdesk it is possible to scan to a moblile device by selecting the
+5) With Sharpdesk it is possible to scan to a mobile device by selecting the
    destination.
 6) OCR allows documents to be scanned and converted to a range of formats.
    Including (Searchable PDF's and Office formats).
-7) Pull-Print allows documents to be retreived from any printer.
+7) Pull-Print allows documents to be retrieved from any printer.
 8) 'THE BIG PAD' interactive whiteboard, is ideal for workgroup discussions.
    Notes can be added then saved to the cloud for everyone to access, using a
    advanced single sign on.
@@ -42,7 +42,7 @@ CURRENT RANGE
 --------------
 
 Currently the range consists of the following models:
-Spinx (RSPF, Recirculating Single Pass Feeder)
+Sphinx (RSPF, Recirculating Single Pass Feeder)
 MX-2630
 Griffin (RSPF, Recirculating Single Pass Feeder)
 MX-3050,  MX-3550, MX-4050, MX-5050, MX-6050
@@ -129,7 +129,7 @@ SIM MODE
 There is now an easy mode for simulation. This can be toggled with the
 Classic mode by pressing the mode setting key at the top of the display.
 
-NEW/CHANGED SIMULALTIONS
+NEW/CHANGED SIMULATIONS
 ------------------------
 
 Sim 06-09	Scanner lock position
@@ -226,7 +226,7 @@ paper types that can be set up in the 'Paper Settings' menu.
 PRINT RELEASE
 -------------
 This serverless Print Release feature uses an MFP as a print server (primary)
-and up to 5 additional MFP's (secondary) can be intergrated into the system
+and up to 5 additional MFP's (secondary) can be integrated into the system
 to function within a closed sub-network. This feature provides better data
 protection, increases user friendliness and also saves resources as misprints
 are minimised.
@@ -237,7 +237,7 @@ RELEASE  SETUP  GUIDE  FOR THE MACHINE
 THE FOLLOWING  SETTINGS  MUST  BE MADE
 -----------------------------------
 1) System Settings - Printer Settings - print release settings
-2) System Settings - Secutity Settings - Port Settings
+2) System Settings - Security Settings - Port Settings
 3) Polling pressure button up on Home screen.
 4) Driver Setting Tab Card Job Handling-> 'print release'
 
@@ -247,7 +247,7 @@ The Phoenix/Griffin models incorporate an OCR function. This function
 supports searchable PDF and scan to office documents (Word, Excel and
 Powerpoint).
 If a replacement HDD is required you will need to update the new HDD 
-with OCR and Watermark data for the machine to work corectly.
+with OCR and Watermark data for the machine to work correctly.
 
 MS Office files
 ---------------
@@ -291,19 +291,19 @@ stored data via MFP.
 Microsoft OneDrive and Sharepoint:
 
 These services are included in the various Office 365 packages. This
-service is not sold sigular. OneDrive and SharePoint connectors supports
+service is not sold singular. OneDrive and SharePoint connectors supports
 the Office 365 Authentication method (Claim base authentication). Other
 methods such as ADFS authentication are not supported.
 
 Google Drive:
 All users start Google connector using their user's Google account.
 
-Effciency and productivity
+Efficiency and productivity
 --------------------------
 
 Single Sign-On
 
-Single Sign-On for cloud systems like Goolge Drive, Sharepoint and One Drive
+Single Sign-On for cloud systems like Google Drive, Sharepoint and One Drive
 allows for faster access to documents. Users no longer have to authenticate
 multiple times in order to obtain access to cloud services. This information
 is now associated with the registration process on the multifunction 
@@ -321,7 +321,7 @@ On the model MX-**60/70N, available by default.
 INSTALLATION
 ------------
 
-It is reccommended that all the output options are installed before the
+It is recommended that all the output options are installed before the
 developer installation procedure is initialised, otherwise an L4-11 error
 message will appear. If this is not possible for whatever reason, you can
 turn off the soft switch Sim 55-1, SW 24, Bit 7 temporarily. However do not
@@ -486,7 +486,7 @@ Volume and Reliability
 
 Machine Life		1 200 000 / 5 years		1 200 000 / 5 years		1 800 000 / 5 years
 
-Reccommended average		15 000				15 000				15 000
+Recommended average		15 000				15 000				15 000
 monthly, Output
 Volume
 
@@ -519,7 +519,7 @@ The position of the drum now makes more even pressure on the cleaning blade.
 Maintenance DK, DC, DM, DY will indicate when the specified number of pages or
 rotations is reached as per previous Sharp models.
 
-MC Grid Bias for all colours is 592+/_5V Middle speed & 583+/-V Low speed
+MC Grid Bias for all colours is 592+/-5V Middle speed & 583+/-5V Low speed
 
 DEVELOPER
 ---------
@@ -527,7 +527,7 @@ DEVELOPER
 Long life developer
 
 The consumable life is specified by 1,350K (OPC Drum) or 2,700K (Developer) rotations.
-Therefore the page count life indicated below is for approximate guidence only.
+Therefore the page count life indicated below is for approximate guidance only.
 
 			
 				MX-2630		MX-3070N/MX-3570N		MX-4070N
@@ -556,7 +556,7 @@ FUSER
 
 Note:-
 Phoenix/Griffin fusers no longer have a cleaning web. The features of the
-belt-type fusing system are shorter warm-up time, lower power consumtion
+belt-type fusing system are shorter warm-up time, lower power consumption
 and a wider nip width.
 
 The fusing pressure control motor (PRM) rotates to turn ON the fusing pressure
@@ -565,7 +565,7 @@ preheat mode, when the machine shifts to the auto power shut off mode, when
 the power switch or the operation panel is turned OFF, when in envelope mode
 and finally when a jam occurs.
 
-New type thermostat is a fast responce and importantly non-resettable.
+New type thermostat is a fast response and importantly non-resettable.
 Do not touch the dome as damage will cause incorrect temperature readings.
 
 IMPORTANT NOTE when replacing the PCU PWB the fuser must be removed until
@@ -586,7 +586,7 @@ MX-607LH	Pressure roller kit	250k		250k		300k
 MX-407FU	Fusing Unit 230v	--------- for service rotation ---------
 
 
-DO NOT DISSASSEMBLE THE FUSER BELT UNIT AS IT IS FACTORY SET.
+DO NOT DISASSEMBLE THE FUSER BELT UNIT AS IT IS FACTORY SET.
 There is no cleaning web for the 30/35/40 PPM machines.
 
 TRANSFER
@@ -596,7 +596,7 @@ Transfer Operation.
 A high positive voltage is applied to the primary transfer roller to transfer
 toner image from the OPC drum to the primary transfer belt.
 Negative electronic charges are generated by the PTC unit, supplying negative
-charges to toner. This operation improves the transfer effiency in the 
+charges to toner. This operation improves the transfer efficiency in the 
 secondary transfer. Then a high negative voltage is applied to the primary
 transfer drive roller, to transfer toner images from the primary transfer
 belt to paper.
@@ -629,7 +629,7 @@ If the waste toner box is emptied it will still show as full until the
 actuator arm is manually released. This is best done using a pair of long
 nosed pliers or similar to release the clutch.
 
-LASER UNIT (Light Amplification by Stimulated Emmision of Radiation)
+LASER UNIT (Light Amplification by Stimulated Emission of Radiation)
 ----------
 
 Within the Griffin range a single channel laser beam configuration is used
@@ -654,5 +654,341 @@ remembering first to disengage the drums, developer units and transfer belt.
 
 DOCUMENT FEEDER
 ---------------
+
+Two types of document feeder are available with the new models:-
+RSPF (Reverse Single Pass Feeder)
+DSPF (Duplex Single Pass Feeder)
+
+In the RSPF models an optical fibre is used as the exposure lamp.The DSPF 
+models uses an LED bar, as used in previous models. For this reason the 
+Document feeder cannot be interchanged.It must be established before placing
+the order for the MFP what type of document feeder is required.
+
+On the models with the RSPF we have adopted a new light source, by using two
+refractive strips and shining a LED down the strip to provide an even amount
+of light.
+
+The DSPF models are still using the original LED array as the light source.
+
+The RSPF Document feeder is similar to all our other models except for the
+inner guide. Additionally, the lower entry guide can be lifted up for easier
+paper jam removal.
+
+The new DSPF is very similar in design to its predecessors. To simplify the
+drive system there are only three (instead of 4 pcs) Drive motors and only
+one type of coupling are used.
+
+The DSPF document feeder is similar to our other models and incorporates a 
+CCD scanner assembly inside to scan the second side of a document without the
+need to turn it over and re-feed. This makes duplex scanning much faster. Also
+this model has only one main drive motor and all clutches are the same type.
+
+RIGHT HAND SIDE DOOR
+--------------------
+
+The right hand side door incorporates the ADU (Auto Duplex Unit) and the 
+Manual Feed Tray. Also located on the right hand side door is the secondary
+transfer unit, used to transfer the image from the primary transfer belt onto
+the paper.
+
+OUTPUT OPTIONS
+--------------
+
+In addition to the right exit tray unit MX-TR19, the inner exit tray MX-TU16
+and the new fob separator MX-TR20, a total of five new finishers are available
+to select from (MX-FN27, MX-FN28 / MX-FN29, MX-FN30 / MX-FN31). Should one of 
+the external finishers be installed, the paper transfer unir MX-RB25 must
+additionally be installed. All finishers can be optionally equipped with a
+2/4-hole Punch Unit.
+
+OUTPUT OPTIONS
+--------------
+
+
+FINISHERS
+---------
+
+Inner finisher MX-FN27, exit tray (MX-TR19) installed
+500 sheets (finisher tray)
+100 sheets (exit tray)
+TTL:600 sheets
+Staple Capacity:
+50 sheets (A4)
+30 sheets (A3)
+Hole Punching: requires MX-PN14C/D (optional)
+
+Finisher (1k) MX-FN28, exit tray (MX-TR19) installed
+1000 sheets (finisher tray)
+250 sheets (top tray)
+100 sheets (exit tray)
+TTL:1350 sheets
+Staple Capacity:
+50 sheets (A4)
+30 sheets (A3)
+Hole Punching: requires MX-PN15C/D (optional)
+
+Finisher (3k), exit tray MX-TR19 installed
+3000 sheets (finisher tray)
+250 sheets (top tray)
+100 sheets (exit tray)
+TTL:3350 sheets
+Staple Capacity:
+65 sheets (A4)
+30 sheets (A3)
+Hole Punching: requires MX-PN16C/D (optional)
+
+For all other details, please refer to the specifications in the service
+manual.
+
+MX-FN28 / MX-FN29 Adjustments unlike normal adjustments are made to the
+1000 finisher via the dip panel. Refer to the service manual.
+
+eg if you need to adjust the folding position, adjust the fold staple 
+position using the DIP SW - see service manual. Move the stapling position
+with the values in the system settings. Remember to move the stapling and
+folding positions together.
+
+MX-FN27 inner Finisher
+----------------------
+
+Note when installing the inner finisher, ensure the punch connection harness
+does not get caught.
+
+When fitting the exit tray to the main unit, ensure the tray is fitted below
+the height limit sensor. The tray can be lowered by releasing the drive by
+inserting a flat blade screwdriver in a small hole at the front of the
+finisher.
+
+To edge the teeth of the stapleless staple unit after replacement, let the
+Sim 3-3 -FNM9 motor run for approximately 2 to 3 minutes.
+
+Manual staple function.
+-----------------------
+
+Note: By holding the manual staple button for 5 seconds the staple unit moves
+to the staple position at the front.
+
+MX-PN14 B/C/D
+
+B = 2/3 Holes
+C = 2/4 Holes
+D = 4 Hole Wide
+
+The optional punch unit replaces the dummy punch unit supplied with the 
+MX-FN27 Inner Finisher. The Punch gets its supply and signals from the 
+finisher via the connector at the rear.
+
+MX-RB25 Paper Pass Unit
+-----------------------
+
+This unit is required when fitting an external finisher MX-FN28/29 or
+MX-FN30/31. Included in the packaging is the external connector. Both the
+MXRB25 and the connector connect into the rear of the machine.
+
+MX-TU16 - Inner tray / MX-TR20 - The Job Separator along with the Interior
+Shelf is designed for the Offsetting Shifter Motor Unit. The shifter motor
+unit is installed in the Exit Unit. The indexer unit on the machine is
+locked by a shouldered screw, this needs to be removed and a drive assembly
+fitted to enable the shift mechanism (inc with the packed items). The
+machine cannot be used without a finishing option or exit tray cabinet.
+L4-11 code will occur. For more details please follow the instructions in the 
+Installation Manual.
+
+Note: If finisher fails in the field it can be removed to allow the machine
+to work without fitting the TU16 by changing SIM 55-01 SW24-07 from 0 to 1.
+
+MX-FN28/29 Finisher options
+---------------------------
+
+MX-RB25 is required to install this finisher. External wiring connector is
+included in the RB25 packaging. A single staple unit is used for both main
+stapling and saddle stitch stapling, so only one staple cartridge type is
+needed for each type of finisher.
+MX-FN28 = MX-SCX1 (5000 Staples)
+MX-FN29 = AR-SC2 (5000 Staples)
+
+MX-FN29 Saddle Finisher
+-----------------------
+
+If replacement of the staple unit is required, then re-alignment of the two
+units must be carried out and the service tool must be used. Please refer
+to the service manual MX-FN28 page 1-24
+
+Part numbers for the tool items are as below
+
+
+1, Screw M3-8, 0PQ04513008N/
+
+2, Rod, 0JEB7936431//
+
+3, Adj, screw M4, 0JEB7936432//
+
+4, Holder Front, 0JEB7936410//
+
+5, Holder Rear, 0JEB7936420//
+
+As pert of the general maintenance schedule, the exit rollers may need to be 
+replaced.  For easier access to the rollers, there is a dip switch on the main
+controller PWB which when operated will open the exit unit giving better 
+access to the rollers.  For further details please refer to the service manual 
+of the MX-FN28/29 page 1-24, item (41) Gathering Roller.
+
+MX-PN15 Punch Unit (Option)
+---------------------------
+
+An option punch module can be fitted to the MX-FN28/29. Please consult the
+Installation Manual for the installation procedure.
+
+MX-PN15 B/C/D
+
+B = 2/3 Holes
+C = 2/4 Holes
+D = 4 Hole Wide
+
+MX-FN30/MX-31 3K Finisher
+-------------------------
+
+The MX-RB25 is required to install this finisher. An external wiring connector
+is included in the RB25 packaging. Separate staple units are used for both
+main stapling and saddle stitch stapling, so two staple cartridge types are
+needed for saddle finisher.
+
+MX-FN30/31 Main Staple = MX-SCX1 (5000 Staples)
+MX-FN31 Saddle Staple = MX-SC12 (2000 Staples)
+
+Manual stapling is available via front slot.
+Staple-less stapling is available on this model.
+
+The MX-FN30/31 external finisher can hold 3,000 sheets of paper  on the output 
+tray. It also has a manual stapling capability like the smaller inner finisher 
+MX-FN27, and also has staple-less stapling.
+
+MX-PN16 Hole Punch Unit
+-----------------------
+
+A hole punch can be fitted to the FN31/31 if required.
+
+B version = 2/3 hole
+C version = 2/4 hole
+D version = 4 hole/4 hole wide
+
+Paper weight = 55-300 gsm
+Unit weight = 2.5kg
+Power source = Supplied by main unit
+
+If an inner tray installed, the new job separator can also be installed for an
+additional output tray. The Job Separator is activated in Sim 26-1 value 'B'.
+
+The centre exit tray comes with a drive unit which must be fitted to drive the
+indexer (Jogger) on the exit unit. Note the exit unit indexer is locked into
+position with a screw, which must be removed prior to fitting the drive unit.
+
+MX-TR20 Job Separator Tray
+--------------------------
+
+This tray can be fitted in conjunction with the centre tray cabinet (MX-TU16)
+and Relay unit (MX-RB25) to allow paper output to two separate locations. IE.
+Fax output can be separated from Copy and Print data, or Print data from Copy
+data.
+
+
+MX-TR19 Exit tray unit gives an additional paper exit option. This can be used
+for Receiving Fax transmissions or to separate print jobs from copy jobs. It
+has no offset function or finishing option. The unit is enabled n Test Sim
+26-01.
+
+Note: there are now three sensors on this exit unit.
+
+MX-DE28 Tandem Desk Unit
+------------------------
+
+The two tandem cassettes of the new MX-DE28 are completely separated from
+each other. An empty cassette can be filled while the paper is being fed from
+the other cassette.
+
+The MX-DE28 has one 550 sheet universal tray and two independent A4 trays,
+this enables the paper to be replenished while the machine is still running.
+The tandem cassettes can be removed from the device to perform maintenance
+work, such as cleaning or replacing the paper feed rollers, only after
+releasing (pulling) the rail stopper. The exact procedure is described in the
+Service Manual.
+
+To remove the trays, the white stopper on the rails needs to be lifted up.
+
+The feed system is the same as the main machine, using the same feed rollers.
+The rollers are different type to CR3 but are removed in a similar way.
+
+LSS - LARGE CAPACITY CASSETTE
+-----------------------------
+
+Large capacity cassette MX-LC17 will give an extra 3000 sheet paper capacity.
+Unlike previous LCC units this model has a side opening door for improved
+paper refilling. This makes paper loading easier and prevents poor paper 
+loading by the customer. The tray can be converted to B5 by adjusting the
+side guides and rear guides.  The paper feed unit is similar to others,
+however new style rollers are used.
+
+Paper capacity (80gsm) = 3000 sheets
+Paper size = A4, B5
+Paper weight = 60 - 220 g/m2
+
+CARD READER MOUNTING FRAME
+--------------------------
+
+The new design of the machine, with the control panel on the right hand side,
+makes for easy card reader installation, and comfortable use by the end user.
+The factory mounting frame has been standardised, so that only one frame type
+is used for different card readers. The electrical connection is made via
+standard USB plug at the panel. The card reader-frame is available as the 
+option MX-XB52.
+
+VIDEOS
+------
+Adjustments necessary at setup:-
+
+Image off-centre adjustment.
+----------------------------
+
+SIM 50-10 (print scan image off centre lead edge position adjustment) 
+necessary at intitial setup of a machine for tray 1, and also for trays 
+2,3,4 when you install an MX-DE25/26/27/28.
+Areas to look at are the lead and tail edge and also the side to side 
+adjustment (main scan and sub scan). All settings in (sim 50-10) are set to
+50 by default. There will be a blue square near the lead edge. Side edges
+should measure 2mm, lead and trail edge should measure 3mm. Adjustig the main
+scan will effect the side to side and adjusting the sub scan will effect the 
+lead and trail edge.
+
+There is a reset which will set all settings back to 50. If you make an 
+adjustment and move it back and the image doesn't move back, exit simulation
+and then re-enter.
+
+SUB-CS adjusts cassettes
+SUB-DSK  adjusts the desk unit.
+
+SIM 50-22 laser image correction to adjust registration of CMY with refernce to K
+
+LASER POWER CLEAR DENSITY CORRECTION
+------------------------------------
+SIM 61-13 excecute and the exit simulation
+SIM 61-11 laser power, press the data button and confirm all the setting are set 
+to 50, if true press the back button and then select 'auto correction'. This will 
+print out a page which needs to be placed on the platten as shown on the display.
+Then place 5 sheets of paper on top and press 'execute'. The machine will now
+read the sheet on the platten and then print out a density patch sheet.
+
+COPY PRINTER ADJUSTMENT
+-----------------------
+SIM 46-74 (COPY/PRINTER COLOUR BALLANCE AND DENSITY ADJUSTMENT) 
+This will print out a test page you put on glass (5 sheets on top)
+with the thin line to the lead edge and press execute. Inspect the test patch
+that is printed (that is copy complete) . Repeat for printer.
+
+RECAP IMAGE QUALITY CHECK
+SIM 50-22
+SIM 61-13
+SIM 61-11
+SIM 46-74
+SIM 64-5
 
 
