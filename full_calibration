@@ -1,0 +1,10 @@
+
+Run SIM 50-22 (Registration set up) Adjust LSU skew as required.
+Run SIM 61-13 (Clear LSU auto correction data)
+Run SIM 61-11 (LSU F-R auto correction)
+Run SIM 44-27 (Clear Process control data)
+Run SIM 67-31 (Clear Printer Process control data)
+Run SIM 44-02 (ID Sensor adjustment)
+Run SIM 44-06 (Force Process control)
+Run SIM 44-26 (Force Halftone Adjust)
+Run SIM 46-74 (Copy and Print Calibration)
