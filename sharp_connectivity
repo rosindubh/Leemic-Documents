@@ -226,4 +226,55 @@ AirPrint support is built into many of the current range of Sharp MFP's.
 For more details please refer to the relevant service manual or sales
 information.
 
+MOPRIA PRINTING
+---------------
+
+What is Mopria (Mobile Print Alliance)
+
+Mopria is a set of standards that enables printing from a mobile device to
+printers from different manufactures or brands. The first execution of the 
+standard has been for Google's Android operating system (4.4 or later). The
+Mopria Print Service provides a 'universal print driver' that converts the
+data to be printed to the appropriate file type required by the MFP.
+
+The setting can be enabled in System Settings.
+
+Note: Mopria functionality is available nia all of the Wireless Printing
+options as long as the MFP  and Android device are on the same subnet.
+
+You will need to download and install the Mopria Print Service Plugin from
+the Google Play web site. One installled, navigate to your Android Settings
+Printing Services and enable Mobria Printing. Once enabled, other print
+service settings can be configured.
+
+Supported OS = Android 4.4 or later
+
+Supported Applications
+----------------------
+Gallery
+Adobe Acrobat Reader
+Chrome, Gmail, Google Photos
+Google Docs, Sheets, and Slides
+Kingsoft Office
+Microsoft Word, Excel, PowerPoint
+
+PRINT DRIVERS
+-------------
+
+Introduction.
+
+Print drivers are small sortware applications that enable the computer and
+applications to communicate with the MFP. The print drivers work with the
+GDI (Graphics Device Interface) to render the print job in a format the MFP
+understands. 
+
+There are several industry-standard printer languages, known as printer
+control languages or page description languages. You can use them for
+advanced desktop publishing jobs that contain special fonts or graphics
+that might otherwise degrade in the translation into a genetic print job.
+
+PostScript, created by Adobe System.
+Printer Command Language (PCL) and Printer Job Language (PJL), both
+created by HP.
+
 
