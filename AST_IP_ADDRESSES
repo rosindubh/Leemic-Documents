@@ -26,17 +26,21 @@ IP 11.0.0.121
 ending H7P
 IP 11.0.0.122
 
-BURY
+BURY Gateway 10.254.0.42
 
-Ground floor Knowsley St
+Ground floor Lexmark
 ending GGY
 192.168.2.242
 
-1st floor Knowsley St
+1st floor Lexmark
 ending H7C
 192.168.2.241
 
-Groung floor Knowsley st
+Groung floor Knowsley Sharp
 Sharp ending 295
 192.168.2.243
+
+1st Floor sharp 
+ending
+192.168.2.227
 
