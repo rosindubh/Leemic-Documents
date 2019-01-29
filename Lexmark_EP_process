@@ -1,0 +1,135 @@
+# notes from Lexmark training online EP process
+#phil welsby 26 january 2019
+
+The System Board is the central control unit of the printer:
+* It processes data from the PC.
+* It creates the bitmap image to print.
+* It controls the laser(s), LEDs, motors and mechanical functions.
+* It coordinates and initiates the mechanical start of the EP process.
+* This board is commonly called by other names such as Controller Board
+or Motherboard.
+
+Some printers don't have a System board but use a RIP Board and a
+Engine Board.
+The RIP Board:
+* It processes data from the PC.
+* It creates the bitmap image to print.
+* It coordinates the start of the EP Process.
+
+The Engine Board is the work horse:
+* It controls the laser(s), LEDs, motors and mechanical functions.
+* It initiates the mechanical start of the EP Process.
+* It is controlled by the RIP Board.
+
+Copy Quality issues due to component failure:
+Photoconductor (drum)
+
+Potential problems:
+* Pits, dings or damage to the photoconductor surface.
+
+The problem looks like:
+* Repeating mark(s) of the affected colour on the printed page.
+* Repeating line(s) of the affected colour on the printed page running
+in the scan direction (the direction the photoconductor sits).
+* Entire page is saturated with 100% of the affected colour(s).
+
+Step 1: Charge
+
+Potential problems:
+* No charge/overcharge from the High Voltage Power Supply to the Charge 
+Roller.
+
+The problem looks like:
+* Entire colour plane missing for the affected colour(s) - may also see
+blank page.
+* Entire page is saturated with 100% of the affected colour(s).
+
+Cause of problem may be Charge Roller/High Voltage Power Supply.
+Check connections and contacts, reinstall/replace the Charge Roller or
+High Voltage Power Supply.
+
+Potential problems:
+* Pits, dings or damage to the charge roller surface causing uneven charge
+to the photoconductor.
+
+The problem looks like:
+* Repeating mark(s) of the affected colour on the printed page.
+ 
+Step 2: Expose
+
+Potential problems:
+* The Laser or LED does not expose or over-exposes the photoconductor.
+
+The Problem looks like:
+* Entire colour plane missing for the affected colour(s) - may also see
+blank page.
+* Entire page is saturated with 100% of the affected colour(s).
+
+The components causing the problem:
+* System Board/RIP Board Laser or LED.
+
+Possible resolution:
+* Reinstall/Replace the cables, System or RIP Board or Laser/LED.
+
+Potential problems:
+* Dust or debris on the Laser or LED Printhead.
+
+The problem looks like:
+* White lines (voids) running in the process direction (the direction the
+paper travels) for each affected colour.
+
+The components causing the problem:
+* Laser or LED Printhead
+
+Step 3: Develop
+
+Potential problems:
+* Dings, dents or debris on the Developer Roller.
+
+The problem looks like:
+* Repeating mark(s) or the affected colour(s) on the printed page.
+* Repeating void(s) of the affected colour(s) on the printed page.
+* White lines (voids) running in the scan direction.
+
+The component(s) causing the problem:
+* Toner Development Roller
+
+Step 4: Transfer (no Transfer Unit)
+
+Potential problems:
+* Colour(s) are printing very light/nearly blank.
+
+The problem looks like:
+* Entire colour plane is very light/nearly blank for the affected colour(s).
+
+The component causing the problem:
+* High Voltage Power Supply / Transfer Roller.
+
+Possible Resolution:
+* Check cable connections and contacts. Reinstall/Replace the Transfer
+Roller or High Voltage Power Supply.
+
+Possible problems:
+* Dents or debris on the Transfer Roller.
+
+The problem looks like:
+* Repeating void(s) on the printed page.
+* Repeating mark(s) of the affected colour(s) on the printed page.
+
+The component causing the problem:
+* Transfer Roller
+
+Step 4: Transfer (with Transfer Unit)
+
+Potential problems:
+* Dents or debris on the Transfer Roller.
+
+The problem looks like:
+* Repeating void(s) on the printed page.
+* Repeating mark(s) of the affected colour(s) on the printed page.
+
+Component causing the problem:
+* Transfer Roller
+
+Step 4: Transfer (with Transfer Unit)
+

@@ -1,0 +1,36 @@
+# lexmark course 29 january 2019
+# phil welsby
+
+3 separate cartridge versions:
+1 PUBLIC
+2 BSD (Business Solution Dealers)
+3 LEXMARK DIRECT
+If the model ends with an odd number then there is no e-solutions available.
+Models with an e at the end or an even number has e-solutions available.
+
+V = vynyl meaning it is a dedicated machine for OHPs envelopes etc
+T = an additional tray out of the box
+H = HDD out of the box
+X = high capacity tray out of the box
+A = analogue fax
+
+last 2 digits denotes the speed of the machine
+
+There has been an added sensor on the toner cartridge to detect if the shutter
+is open.
+
+The machines have a narrow media sensor at the exit that detects the width of
+the paper as it exits, and adjusts the speed/temp of the fuser accordingly.
+
+support.lexmark.com
+should be able to use same login as used for skillport
+
+get manuals firmware drivers etc
+
+Require 5.5mm open end wrench to take out laser unit
+
+There is a utility to update firmware via usb 
+
+You can sign up to get a bi-monthly email regarding technical bullliten
+
+
