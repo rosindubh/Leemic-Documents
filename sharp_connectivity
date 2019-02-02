@@ -239,7 +239,7 @@ data to be printed to the appropriate file type required by the MFP.
 
 The setting can be enabled in System Settings.
 
-Note: Mopria functionality is available nia all of the Wireless Printing
+Note: Mopria functionality is available via all of the Wireless Printing
 options as long as the MFP  and Android device are on the same subnet.
 
 You will need to download and install the Mopria Print Service Plugin from
