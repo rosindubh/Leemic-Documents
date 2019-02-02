@@ -31,6 +31,28 @@ Require 5.5mm open end wrench to take out laser unit
 
 There is a utility to update firmware via usb 
 
-You can sign up to get a bi-monthly email regarding technical bullliten
+You can sign up to get a bi-monthly email regarding technical bulllitens
+
+COLOUR MACHINES
+
+Main difference is the OP panel
+C2240de top end BSD (printer only)
+
+2 additional trays available 650 duo and 550 sheet
+Duo must be first under the machine
+Can only have one of each
+can't have 2 DUO's or " 550 sheet
+
+XC22235de
+XC2240dhe   both MFDs
+
+XC4240dhe  MFD   top end
+
+new and old toner cartridges are not compatible
+
+use IP address of machine followed by/se to read event log and other things
+ie :-
+192.68.0.10/se
+
 
 
