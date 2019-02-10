@@ -54,7 +54,9 @@ use IP address of machine followed by/se to read event log and other things
 ie :-
 192.68.0.10/se
 
-To access th Diagnostics Menu from the Home Screen press * * 36 on the contol panel.
-Entering the Service Engineer Menu (SE) press * * 411 on the control panel from
+To access the Diagnostics Menu from the Home Screen press **36 on the contol panel.
+Entering the Service Engineer Menu (SE) press **411 on the control panel from
 the Home Screen.
 
+To download log file to USB, enter service mode (**411), then navigate to 
+General SE > Capture logs to USB
