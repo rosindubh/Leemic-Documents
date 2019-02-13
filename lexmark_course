@@ -2,7 +2,7 @@
 # phil welsby
 
 3 separate cartridge versions:
-1 PUBLIC
+1 SERVICE
 2 BSD (Business Solution Dealers)
 3 LEXMARK DIRECT
 If the model ends with an odd number then there is no e-solutions available.
@@ -22,7 +22,7 @@ is open.
 The machines have a narrow media sensor at the exit that detects the width of
 the paper as it exits, and adjusts the speed/temp of the fuser accordingly.
 
-support.lexmark.com
+https://support.lexmark.com
 should be able to use same login as used for skillport
 
 get manuals firmware drivers etc
@@ -50,7 +50,7 @@ XC4240dhe  MFD   top end
 
 new and old toner cartridges are not compatible
 
-use IP address of machine followed by/se to read event log and other things
+use IP address of machine followed by /se to read event log and other things
 ie :-
 192.68.0.10/se
 
@@ -60,3 +60,7 @@ the Home Screen.
 
 To download log file to USB, enter service mode (**411), then navigate to 
 General SE > Capture logs to USB
+
+TECHNICAL ASSISTANCE:
+kieth.hindley@lexmark.com
+richard.pells@lexmark.com
