@@ -18,7 +18,7 @@ notes from video:-
    Including (Searchable PDF's and Office formats).
 7) Pull-Print allows documents to be retrieved from any printer.
 8) 'THE BIG PAD' interactive whiteboard, is ideal for workgroup discussions.
-   Notes can be added then saved to the cloud for everyone to access, using a
+   Notes can be added then saved to the cloud for everyone to access, using an
    advanced single sign on.
 9) OSA offers more solutions.
 
@@ -570,7 +570,7 @@ Do not touch the dome as damage will cause incorrect temperature readings.
 
 IMPORTANT NOTE when replacing the PCU PWB the fuser must be removed until
 message on the screen appears (install fuser unit). Check Technical Handy
-Guide or Service Manual page 10-26. 
+Guide or Service Manual page 10-28 (MX-5050 service manual). 
 
 Note:-
 This action must be done when installing a new fuser unit as well.
@@ -588,6 +588,8 @@ MX-407FU	Fusing Unit 230v	--------- for service rotation ---------
 
 DO NOT DISASSEMBLE THE FUSER BELT UNIT AS IT IS FACTORY SET.
 There is no cleaning web for the 30/35/40 PPM machines.
+
+Grease for fuser = UKOG-0235FCZZ
 
 TRANSFER
 --------
