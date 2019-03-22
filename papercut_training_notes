@@ -1,0 +1,26 @@
+# notes from papercut training course
+# phil welsby 15 march 2019
+
+Google Gsuite
+1st install uses a trial licence (no limit).
+\\server-name\PCClient folder created.
+
+run pc-client if you upgrade papercut.
+
+service.msc
+
+2nd Server used primary for tracking info.
+
+2nd server has endless licences.
+
+Site Server has one free licence.
+
+Online payment geteway (paypal, Parentpay)
+Buy extra module to support. (see Papercut knowledgbase)
+
+localhost:9191 is the user interface.
+
+Print archiving will keep thumbnails in EMF format for 30 days. 
+Will stop if less than 2GB on HDD.
+
+

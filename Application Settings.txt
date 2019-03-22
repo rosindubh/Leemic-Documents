@@ -1,0 +1,25 @@
+http://192.168.1.175:9191/device/sharp_osa3/ui/   #REMEMBER TO INCLUDE THE LAST FORWARD SLASH IN THE URL
+
+http://192.168.1.175:9191/device/sharp_osa3/soap?name=Sharp+MX2640    # HERE THE NAME OF THE PRINTER IS SHARP+MX2640
+                                                                      # DO NOT USE SPACES USE A + TO CONCATENATE THE STRING
+
+
+Allow re-selection of print jobs (Requires AMX2)
+
+ "Address for Application UI": http://192.168.1.175:9191/device/sharp_osa3/ui/printRelease.jsp
+
+New Intergrated Scan AMX2 req and 10inch Display
+
+scan
+http://192.168.1.103:9191/device/sharp_osa3/ui/scanApp.jsp
+
+Print
+http://192.168.1.103:9191/device/sharp_osa3/ui/printReleaseApp.jsp
+
+Home
+http://192.168.1.103:9191/device/sharp_osa3/ui/homeApp.jsp
+
+ext-device.sharp_osa.id.number-pad 
+ext-device.sharp_osa.skip-release-screen-when-no-jobs 
+
+SETTINGS.WEB-SETTINGS,#SYS.JOB-PROGRAM-STORE,#SYS.CLOCK,#SYS.KEYBOARD-SELECT,#SYS.USER-CONTROL,#SYS.ENERGY-SAVE,#SYS.OPERATION-SETTINGS,#SYS.DEVICE-SETTINGS,#SYS.COPY-SETTINGS,#SYS.NETWORK-SETTINGS,#SYS.PRINTER-SETTINGS,#SYS.IMAGESEND-OPERATION-SETTINGS,#SYS.IMAGESEND-SCANNER-SETTINGS,#SYS.IMAGESEND-FAX-SETTINGS,#SYS.IMAGESEND-IFAX-SETTINGS,#SYS.DOC-FILING-SETTINGS,#SYS.LIST-PRINT-ADMIN,#SYS.SECURITY-SETTINGS,#SYS.PRODUCT-KEY,#SYS.ESCP-SETTINGS,#SYS.ENABLE-DISABLE-SETTINGS,#SYS.FIELD-SUPPORT-SYSTEM,#SYS.CHANGE-ADMIN-PASSWORD,#SYS.RETENTION-CALLING,#SYS.OSA-SETTINGS
