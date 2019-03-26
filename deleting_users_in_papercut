@@ -1,0 +1,38 @@
+# notes on how to remove users from PaperCut and how to reset password
+# phil welsby 26 march 2019
+
+REMOVING USERS
+--------------
+
+***************************************************************
+*BEFORE PERFORMING THE INSTRUCTIONS BELOW CHECK THAT THE USERS*
+*YOU WISH TO DELETE HAVE FIRST BEEN DELETED FROM MICROSOFTS   *
+*ACTIVE DIRECTORY ON YOUR SERVER.                             *
+***************************************************************
+
+1) Log in to PaperCut with Admin rights
+2) Open the Options tab and find User Group Sync
+3 Scroll down until you find the tick box that says 
+  "Delete Users that do not exist on selected source"
+4) Click the Test button lower down the page
+   (this will open a text window and will show a list of
+   users that will be deleted).
+5) If happy to continue click the Sycronize button next to 
+   the Test button (a warning will be given that the action
+   you are about to take is not reversable).
+6) Log out and then log back in and navigate to About Tab, scroll down to Licence Info
+   here you will see Licenced Users 
+   (In here you will be able to see the current licences that are now in use.
+
+TO RESET THE ADMIN PASSWORD
+___________________________
+
+1) You have to edit a text file on the Microsoft Server
+2) Navigate to this folder: C:\OS\Program_Files\PaperCut_MF\server
+3) Locate a file named 'Server Properties' and open it in a text editor
+   NOT MICROSOFT WORD OR SIMILAR
+4) Locate the password in this file (it will be in a hashed format and
+   replace it with a plain text password.)
+5  Navigate to Options > Advanced in Papercut
+
+
