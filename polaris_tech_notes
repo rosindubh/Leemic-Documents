@@ -1,0 +1,244 @@
+# notes for polaris machines (Polaris 2 & Polaris Pro 2 series)
+# phil welsby 6 march 2019
+
+RANGE OF MODELS
+---------------
+MX-6580N / MX-7580N  and MX-7090N / MX8090N
+
+FIERY OPTIONS
+-------------
+The Polaris 2 (MX-6580N and MX7580N) has the option of an embedded Fiery MX-PE12.
+
+The Polaris Pro 2 (MX-7090N and MX-8090N) has the option of an embedded 
+Fiery MX-PE14 and an external Fiery MX-PE13.
+
+PAGES PER MINUITE
+-----------------
+MX-7580N and MX-6580N’s 75 and 65 page per minute capability, 
+and the MX7090N and X8090N's 70 and 80 page a minute capability
+----------------------------------------------------------------------------------------
+
+PERIPHERALS
+-----------
+
+MX-LC12
+
+Large Capacity Cassette A4
+
+*  Feed type : Friction Roller
+*  Paper capacity : 3500 sheets A4 (80 gsm)
+*  Paper weight : Plain paper - 60 -105 gsm
+                            Heavy paper 1 - 105 - 176 gsm
+                            Heavy paper 2 - 177 - 220 gsm
+
+MX-LCX3N
+
+Large Capacity Cassette A3 - B5R
+
+*  Feed type : Friction Roller
+*  Paper capacity : 3000 sheets A3 - B5 (80 gsm)
+*  Paper weight : Plain paper - 60 -105 gsm
+                            Heavy paper 1 - 105 - 176 gsm
+                            Heavy paper 2 - 177 - 220 gsm
+
+
+MX-LX13N
+
+Large Capacity Cassette SRA3 - B5R
+
+*  Feed Type : Air assist (with de-humidifier heater)
+*  Paper Capacity : Upper Tray 2500 sheets (80 gsm)
+                               Lower Tray 2500 sheets (80 gsm)
+*  Paper weight : Plain paper - 60 -105 gsm
+                            Heavy paper 1 : 105 - 176 gsm
+                            Heavy paper 2 : 177 - 220 gsm
+                            Heavy paper 3 : 221 - 256 gsm
+                            Heavy paper 4 : 257 - 300 gsm
+
+
+IMPORTANT NOTES
+---------------
+
+NOTE : MX-MF10 Manual feed tray must be removed and MX-RB14 Paper pass unit must be 
+fitted if MX-LC13N large capacity cassette is fitted 
+
+NOTE : For the MX-7090N and MX-8090N (Polaris Pro 2) 2 x MX-LC13N can be installed in 
+tandem with the extra bridging unit MX-RB17 installed in the first MX-LC13N
+
+
+MX-MF11
+-------
+
+Manual feed tray to fit on MX-LC13N
+
+*  Feed Type : Friction Roller
+*  Paper Capacity - 500 sheets (80gsm)
+*  Paper weight : Plain paper - 60 -105 gsm
+                            Heavy paper 1 - 105 - 176 gsm
+                            Heavy paper 2 - 177 - 220 gsm
+*  Paper size : SRA3 - A5
+*  Paper type : Plain paper, Heavy paper, recycled paper, Thin paper, Letter Head, 
+   Punched paper, transparency, Coloured paper, Tab paper, Pre-punched paper, Postcard
+
+
+MX-LT10
+-------
+
+Long paper feeding tray
+
+*  Both the Polaris 2 and Polaris Pro 2 are able to feed Long paper (Banner paper) from 
+   either the standard manual feed tray (MX-MF10) or the MX-LC13N manual feed tray 
+   (MX-MF11)
+*  Banner paper size specifications (width : 90 - 330mm, length : 458 - 1300mm)
+
+NOTE : When users use this feature, the engineer should enable "Banner size Print" in 
+SIMM 26-50, and also set counter mode in SIMM 26-8 
+(Setting range : 1 - 10, Default value : 3)
+
+To ensure banner paper can be selected in the driver, ensure that 2-sided printing to 
+ disabled and then set original size to "Long paper" and input sizes.
+
+MX-TU14
+-------
+
+Main Unit centre exit tray
+
+*  Paper capacity : 250 sheets (80gm2)
+*  Face down output
+*  Paper weight : 55 - 300gm2
+*  Paper size : All
+
+Note : Fitted to the machine if no other finishing options are fitted
+
+MX-TR14
+-------
+
+Right Exit tray
+
+*  Paper capacity : 100 sheets (80gm2)
+*  Paper weight : 55 - 256gm2
+*  Size : SRA3 - A5R
+*  NOT : Heavy paper 4
+              Tab paper
+              Envelope
+              Long paper
+*  Enabled in SIMM 26-1 "Right Paper Exit Tray"
+
+NOTE : This cannot be fitted if the MX-LC13N and MX-RB14 have been fitted
+
+MX-RB12 and MX-RB12N
+--------------------
+
+The MX-RB12 is the bridging unit for the MX-6580N / MX-7580N (Polaris 2)
+
+The MX-RB12N is the bridging unit for the MX-7090N / MX-8090N (Polaris Pro 2)- 
+This has been changed due to a new air flow system and fan introduced in the Polaris 
+Pro 2 around the Black toner cartridge to comply with Blue angel environmental standards
+
+The MX-RB12 and MX-RB12N is a bridging/paper pass unit that must be fitted if any 
+finishing options are to be fitted to the machine
+
+
+MX-FN19 and MXFN20 (Polaris 2 only)
+-----------------------------------
+
+MX-FN19 : 4K 50 sheet Finisher
+MX-FN20 : 4k 50 sheet Saddle Finisher
+
+*  Paper size (Non staple) : SRA3 - A5
+*  Paper size (Staple) : A3 - A4
+*  Stapling Capacity : 50 sheets A4 (80 gm2)
+                                  30 sheets A3 (80 gm2)
+Heavy paper up to 256 gm2 can be used as a front and back cover, with the rest being 80 gm2.
+
+*  Saddle / Pamphlet - 15 sheets (80 gsm)
+Heavy paper up to 256 gm2 can be used as a cover page, with the rest being standard 80 gm2
+
+*  Staple cartridge : AR-SC2
+                                AR-SC3 (Saddle Cartridge)
+
+MX-PN12 : Punch Unit
+
+*  Punch Unit 2 Hole : MX-PN12A
+*  Punch Unit 4 Hole : MX-PN12C
+*  Punch Unit 4 Hole Wide : MX-PN12D
+
+
+MX-FN21 and MXFN22
+------------------
+
+MX-FN21 : 4K 100 sheet Finisher
+MX-FN22 : 4k 100 sheet Saddle Finisher
+
+*  Paper size (Non staple) : SRA3 - A5
+*  Paper size (Staple) : A3 - A4
+*  Stapling Capacity : 100 sheets A4 (80 gm2)
+                                   50 sheets A3 (80 gm2)
+Heavy paper up to 300 gm2 can be used as a front and back cover, with the rest being 80 gm2.
+
+*  Saddle / Pamphlet - 20 sheets (80 gm2)
+Heavy paper up to 300 gm2 cover page, with the rest being standard 80gm2
+
+*  Staple cartridge : MX-SCX2
+                                MX-SCX1 (Saddle Cartridge)
+
+MX-PN13 : Punch Unit
+*  Punch Unit 2 Hole : MX-PN13A
+*  Punch Unit 2/4 Hole : MX-PN13C
+*  Punch Unit 4 Hole Wide : MX-PN13D
+
+MX-TM10 : Trimmer unit (For MX-FN22 only)
+*  Trim width : 2 - 20 mm
+Adjustable in 1 mm increments
+
+
+MX-RB15
+-------
+
+Curl Correction Unit
+
+When installing either the MX-FN21 or MX-FN22 the curl correction unit (MX-RB15) is a 
+mandatory item and must be installed.
+
+The curl correction unit is designed to remove paper curl from heavy paper stocks and 
+is not designed to remove curl on plain paper due to poor quality.
+
+*  If paper curls up in the paper exit tray then the upper adjustment control should 
+be adjusted
+*  If paper curls down in the paper exit tray then the lower adjustment control should 
+adjusted
+
+NOTE : At no point should both the upper and lower adjustment controls be adjusted at 
+the same time
+
+MX-CF11
+-------
+
+Inserter (MX-CF11)
+
+*  Paper size : SRA3 - A5R
+*  Paper weight : 60 - 220 gm2   
+*  Paper Capacity : Upper tray 200 sheets (80gm2)
+                               Lower tray 200 sheets (80gm2)
+
+*  Restricted paper : Heavy paper 3/4, Embossed paper, Tab paper, OHP, Labels and 
+Transparency.
+
+Bridging Unit (RB13)
+
+The MX-RB13 Bridging unit needs to be fitted under the MX-CF11 Inserter if the MX-FD10 
+Folding unit is not fitted
+
+MX-FD10
+-------
+
+Folding unit
+
+paper type	55 - 105 gssm
+paper size	A3 B4 A4R
+tray capacity	A3/B4 70 sheets		A4R 30 sheets
+
+PLOCKMATIC MX-BM50
+------------------
+
+
