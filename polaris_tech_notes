@@ -241,4 +241,195 @@ tray capacity	A3/B4 70 sheets		A4R 30 sheets
 PLOCKMATIC MX-BM50
 ------------------
 
+----------------------------------------------------------------------------------------
+
+TONERS
+------
+
+
+Polaris 2 MX6580N - MX7580N
+
+Remarks
+Toner Cartridge (Black)
+MX-62GT-BA
+65k
+Life: A4 @ 5% coverage
+
+Toner Cartridge (Cyan)
+MX-62GT-CB
+40k
+Life: A4 @ 5% coverage
+
+Toner Cartridge (Magenta)
+MX-62GT-MB
+40k
+Life: A4 @ 5% coverage
+
+Toner Cartridge (Yellow)
+MX-62GT-YB
+40k
+Life: A4 @ 5% coverage
+----------------------------------------------------------------------------------------
+
+Polaris Pro 2 MX7090N - MX8090N
+
+
+Toner Cartridge (Black)
+MX-62GT-BA
+65k
+Life: A4 @ 5% coverage
+
+Toner Cartridge (Cyan)
+MX-75GT-CA
+60k
+Life: A4 @ 5% coverage
+
+Toner Cartridge (Magenta)
+MX-75GT-MA
+60k
+Life: A4 @ 5% coverage
+
+Toner Cartridge (Yellow)
+MX-75GT-YA
+60k
+Life: A4 @ 5% coverage
+
+
+
+
+Note:  MX-62GT** Toner cartridges will also fit in the MX7090N - MX8090N but 
+MX-75** toner cartridges will not fit into the MX6580N - MX7580N.
+Due to the pricing and TCO (Total Cost of Ownership) calculations it is not advisable 
+to fit the wrong toner cartridges.
+
+----------------------------------------------------------------------------------------
+
+
+Process
+
+Item				Part Number		Life		Remarks
+Developer (K)			MX-62GV-BA		600k		Please see note below
+Developer (C, M, Y)		MX-62GV-SB		400k		Please see note below
+Drum (OPC drum)			MX-62GR-SA		300k (Black)	Please see note below
+							200k (Colour)   Please see note below
+
+Main Charger Kit		MX-751MK		300k (Black)    Please see note below
+							200k (Colour)	Please see note below
+DV Filter Kit			MX-751FK		300k (Black)    Please see note below
+							200k (Colour)   Please see note below
+
+**** Please ensure that the DV filter is replaced at drum change ****
+
+Definition of developer/drum life end.
+
+When the developer/drum counter reaches the specified count.
+When the developer/drum rpm reaches the specified count.
+When either of the above reach the specified count, it is judged as life end.
+
+In an actual case, the ratio of monochrome output and colour output may differ greatly.
+When data of mixed documents (monochrome and colour) are output, monochrome 
+document data may be output in the colour mode in order to prevent against fall in the job efficiency. 
+(ACS auto colour selection).
+In addition, when correction or warm-up operation is performed as well as output operation, 
+the developer and the drum rotates.
+Therefore, the developer/drum consuming level cannot be determined only by the copy/print quantity. 
+When, therefore, the rpm reaches the specified amount, it is judged as life end.
+To check the developer/drum life, use SIM22-13.
+
+
+Developer/Drum Counter		|				Developer/Drum RPM              |
+
+B/W				Full colour			B/W				Full Colour
+Drum 300K copies/prints		Drum 200K copies/prints		Drum 1 million rotations	Drum 1 million rotations
+Developer 600K copies/prints	Developer 400K copies/prints	Developer 2 million rotations	Developer 2 million rotations
+
+
+OTHERS
+------
+
+tem					Polaris 2 MX6580N - MX7580N			Polaris Pro 2 MX7090N - MX8090N		Life
+Fusing Belt Kit				MX-751FB					MX-800FB				300K
+Fusing Roller Kit			MX-751HK					MX-800HK				300K
+Pressure Roller Kit			MX-750LH					MX-750LH				300K
+Web Cleaning Kit			MX-620WB					MX-620WB				300K
+Primary Transfer Belt Kit		MX-800B1					MX-620B1				300K
+Primary Transfer Blade Kit		MX-751TL					MX-751TL				300K
+Primary Transfer Cleaner Roller Kit	MX-751C1					MX-751C1				300K
+PTC Kit					MX-620CU					MX-620CU				300K
+Secondary Transfer Belt Kit		MX-620B2					MX800B2					300K
+Secondary Transfer Bade Kit		MX-620TG					MX-750TG				300K
+PS Paper Dust Removing Unit		MX-620PD					MX-620PD				300K
+Filter Kit				MX-751FL					MX-800FL				300K
+Toner Collection Container		MX-700HB					MX-700HB				See Note 1
+Primary Transfer Belt Unit		MX-751U1					MX-800U1
+Secondary Transfer Belt Unit		MX-751U2					MX-800U2
+Fusing Unit				MX-752FU					MX-800FU
+
+
+Note 1:   The life of the toner collection container is 100K 
+(which varies depending on the print contents, the paper sizes, 
+the paper kinds, the use conditions, and the number of continuous printing) 
+with the colour ratio of 30% (Monochrome : Colour = 7 : 3) and A4 size 5% coverage.
+
+PULL PRINTING
+-------------
+
+The MX-7580N / MX-6580N and MX-7090N / MX-8090N series MFP's have a built-in Print Release capability. 
+This is the same feature found on our latest range of office MFP's, users can send their print jobs to 
+the master MFP which acts as the server.  From there, users can print the data from up to five client 
+MFP's on the same network. 
+
+Note: This function will be lost if the EFI Fiery option has been fitted
+
+This means that even if someone is using the MFP and/or if the MFP cannot be used because of maintenance, 
+as long as the machine set-up as the primary remains switched on, users can print the data at another 
+available MFP on the same network without waiting.  
+
+Furthermore, if no user authentication is enabled all users will see all jobs, for enhanced security 
+when using this feature, it is necessary for user authentication to be enabled and for them to provide authentication.
+
+As there is no need for a separate print server or additional software, 
+this low cost pull printing solution is ideal for organisations who already 
+have our latest MFP range and want basic control over their printing with 
+higher flexibility.
+
+SCREEN
+------
+
+The MX-6580N and MX-7580N both have the same built-in 10.1” multi-touch finger swipe touch colour LCD 
+control panel as the CR4 as standard, users are guided step by step through operational procedures.  
+This third generation touch screen is the fastest in the Sharp range meaning that users will be able 
+to have a seamless experience at the MFP. 
+
+The MX-7090N and MX8090N has a new 15.4" touch screen with all the same features and operational 
+procedures as the 10.1" screen but with higher clarity, this is so that when the external fiery (MX-PE13) 
+is installed the CWS (Command Work Station) can be viewed clearly.
+
+Additionally, the retractable QWERTY keyboard (MX-KB13) enables easy text entry 
+providing users more flexibility should they need it.
+
+The CR4 screens make it easy for the operater to gain assistance on all aspects of the machine, including:
+
+*  Downloading and printing manuals
+
+*  Loading paper and placing originals
+
+*  Operating the machine
+
+*  Maintenance
+
+
+Downloading and Printing Manuals
+
+Manuals that can be Printed
+This selection shows you manuals that can be printed, this includes:
+*  Quick Start Guide
+*  Web Page Settings Guide
+*  U/I Customise Guide
+*  Print Release settings Guide
+*  Q&A Troubleshooting
+
+How to download a manual
+This selection firstly shows how to check the IP address, this is because you will need to access the machines web page to download manuals.
+It then walks you through a step by step process how to download a manual in PDF format.
 
