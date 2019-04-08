@@ -21,6 +21,17 @@ and the MX7090N and X8090N's 70 and 80 page a minute capability
 PERIPHERALS
 -----------
 
+MX-LC13N
+
+The 5,000 sheet Large Capacity Tray (MX-LC13N) incorporates an advanced paper handling 
+'Triple Air Feed' system which brings many advantages compared to a traditional friction feed system. 
+It not only ensures the reliable feeding of coated and heavy weights but also provides greater accuracy of 
+registration
+
+Since the air separates, assists and vacuum feeds the paper into the print engine it prevents roller feeder 
+marks on the paper.   Moreover, temperature sensors stabilise the paper condition to reduce static on coated 
+stocks increasing print quality.
+
 MX-LC12
 
 Large Capacity Cassette A4
@@ -432,4 +443,274 @@ This selection shows you manuals that can be printed, this includes:
 How to download a manual
 This selection firstly shows how to check the IP address, this is because you will need to access the machines web page to download manuals.
 It then walks you through a step by step process how to download a manual in PDF format.
+
+BUSINESS CARD SCANNING
+----------------------
+
+When dealing with business cards, the MX-7580N and MX-6580N is able to digitise texts through the embedded OCR 
+feature and then send and save as vCard or CSV formats.
+Combining this with the multi-crop feature simultaneously, multiple cards can be read at one scanning.  
+Furthermore, information scanned from business cards can be imported to e-mail applications such as exchange 
+mailers.  Thus, making business card management a much easier task.Business Card Scanning
+When dealing with business cards, the MX-7580N and MX-6580N is able to digitise texts through the embedded OCR 
+feature and then send and save as vCard or CSV formats.
+Combining this with the multi-crop feature simultaneously, multiple cards can be read at one scanning.  
+Furthermore, information scanned from business cards can be imported to e-mail applications such as exchange 
+mailers.  Thus, making business card management a much easier task.
+
+
+CONSISTENCY ACROSS LONG PRINT RUNS
+-----------------------------------
+
+With a maximum paper capacity of 8,500 sheets, the MX-7580N and MX-6580N enables a large number of 
+print/copy jobs to be executed without interruption
+
+To ensure image quality stability from the first page to the last, MX-7580N and MX6580N adopts 
+Sharp’s Developer Refresh System.
+The mixed toner and carrier are delivered from toner cartridge to the developing unit to reduce the 
+deterioration of developer.  
+As a result, this technology provides stable image quality on long print runs and ensures that image 
+quality is maintained between PM cycles.
+
+SCANNNER ASSEMBLY AND SCANNER LAMPS
+-----------------------------------
+
+The new Polaris office 2 (MX6580N - MX7580N) uses the new SIT chart used for the CR4 range of machines.
+This SIT chart is used for accurately calibrating the CCD array housed in both the optics cavity and DSPF.
+Please refer to Adjustment section 7A and 18B in the service manual
+
+A new scanner lamp has been designed that incorporates 2 side lit waveguide sticks and 4 low power LED's. 
+This can be achieved by the use of a brand new high sensitivity CCD array producing better quality but using 
+less power
+
+The scanner drive capstan has been changed from a metal drive to a new plastic drive.
+The screw has been removed and therefore optical skew cannot now be adjusted using this method
+
+Optical skew adjustment is now performed on the lamp carriage itself.
+See adjustment 4A in the Service Manual
+
+DSPF
+----
+
+The DSPF is the same as the CR4 type
+
+    Scanner lamps are the same as you have just seen in the Optics cavity section (changed from Polaris 1 - 72 
+    LED's or Phoenix -48 LED's) the new scanner assembly utilises 2 side lit waveguide sticks and 4 low power 
+    LED's
+    Polaris 1 DSPF uses stepper motors, Polaris 2 uses a brushed DC motor with a new control PWB
+
+LASER UNIT
+----------
+
+1. The LSU shutter assembly has now been removed from Polaris 2
+2. The addition of 4 new style lenses, which sit just under each drum module,  for improved performance and 
+increased scanning width from 310mm to 330mm 
+3. Removal of 1 focusing lens internally
+4. Addition of noise reduction material around polygon motor for improved sound proofing
+
+PROCESS UNITS (DEVELOPER TANKS)
+
+Polaris Office 1 (MX6240N/7040N)
+D.S.D. Gap = 0.50mm
+Doctor Gap = 0.775mm
+Colour = Black
+
+Polaris Pro 1 (MX6500N/7500N)
+D.S.D. Gap = 0.40mm
+Doctor Gap = 0.65mm
+Colour = Dark Grey 
+
+Polaris Office 2 (MX6580N/7580N)
+D.S.D. Gap = 0.40mm
+Doctor Gap = 0.70mm
+Colour = Light Grey
+
+Polaris 2 has new developer filters with finer mesh to reduce toner scatter
+NOTE: These filters should be replaced at every drum change.
+
+200K Colour
+300K Black
+
+Beware: vacuuming the filters will loosen the fibres and contaminate the developer. 
+
+The urethane seal on the upper cover has been increased in length from 8mm to 10mm to reduce toner scatter 
+
+The Developer drive coupling has changed to a more direct drive, the same as Polaris Pro 1. 
+This also incorporates a locating pin for more accurate developer positioning. 
+
+The developer tank also has a different mechanical key and CRUM chip as the units are not inter-changeable 
+between models 
+
+PROCESS UNITS (DRUM MODULES)
+----------------------------
+
+The grid on the main charge has been modified to improve the stability of the electrostatic charge, the width 
+and the pitch has been increased.
+
+The main charge holder has a mechanical key, as these are NOT interchangeable with earlier models
+
+The Polaris office 1 and Polaris Pro 1 is black
+
+The Polaris office 2 is grey
+
+In area 1 of the new Main Charge a rib has been added
+
+In area 2 of the new Main charge a cut has been made
+
+
+The Drum Module has also had mechanical keys added and changed from the previous models to assist in not 
+being able to make a mistake and fit the incorrect unit to the particular model.
+As discussed earlier in the developer tank module, each model has different D.S.D. and doctor blade gap, 
+therefore these mechanical keys have been added to avoid quality issues from fitting the incorrect units.
+
+***  Note: Main Charge NOT Interchangeable ***
+
+
+Model Name		Model Name		Description		Life (approx.)
+MX6240N -MX7040N	MX6580N -MX7580N
+
+MX-62GRSA		MX-62GRSA		OPC Drum		Black 300K
+									Colour 200K
+
+MX-750MK		MX-751MK		Main Charger Kit	Black 300K
+						Main Charge unit	Colour 200K
+						Drum Cleaner Blade
+						Cleaning Gum P2
+
+MX-62GVBA		MX-62GVBA		Black Developer		600K
+
+MX-62GVSB		MX-62GVSB		Colour Developer (CMY)	300K
+
+MX-750FK		MX-751FK		DV Filter Kit		Black 300K
+									Colour 200K
+
+FUSER
+-----
+
+ The fuser unit for Polaris office 2 (MX6580N – MX7580N) is a new fuser unit for this model and 
+not backward compatible with previous models, this is due to a specification change of image 
+quality assurance range •  Polaris office 1 has a guaranteed quality width of 303mm allowing for 
+A3 and A4 + 3mm either side. •  Polaris office 2 has been increased to 319mm
+
+Wiring harness is different compare to Polaris 1 ; If the wrong fuser unit is installed you will 
+encounter a fusing error code (H2-06) 
+
+Lower separation pawl was added (4 to 5) in order to improve the transportation of invoice paper size. 
+(same as Polaris Pro) 
+
+Since there are many types of paper with various paper weights on the market, 
+it is necessary to execute fuser temperature adjustment properly according to 
+paper weights. The fuser temperature adjustment SW for plain paper 
+(which is set according to the paper weight) has been available since CR3. 
+However, it is set deep in the hierarchy of System Settings which doesn’t help 
+to reduce service calls. The setting has now been moved from 
+“System settings” “Device Control” to Paper type for plain paper “Plain” is now 
+divided into “Plain 1” and “Plain 2”. 
+
+Model Name			Model name		Description				Life (approx.)
+MX6240N -MX7040N		MX6580N -MX7580N
+
+
+MX-620FB			MX-751FB		Fuser Belt Kit
+							Fusing Belt
+							Fusing Belt Guide Collar x 2		300K
+
+MX-750HK			MX-751HK		Fuser Roller Kit
+							Fusing Roller
+							Fusing Roller Bearing x 2
+							Heat Roller
+							Heat Roller Bearing x 2
+							Bush x 2				300K
+
+MX- 750LH			MX-750LH		Pressure Roller Kit
+							Pressure Roller
+							Pressure Roller Bearing x 2
+							Pressure Roller Gear
+							Lower Separation Pawl x 5
+							Lower Separation Pawl Spring x 5	300K
+
+MX-620WB			MX-620WB		Web Cleaning Kit
+							Web Roller
+							Web Guide Shaft
+							Web Pressure Roller
+							Web Pressure Roller Bearing x 2		300K
+MX-621FU			MX-752FU		Complete Fusing unit			3000K
+
+
+TRANSFER UNITS
+--------------
+
+A new oil impregnated roller has been added for improved cleaning after image transfer. 
+This will reduce staple effect on the primary transfer belt. The roller is grounded to 
+help remove charge from the belt and moves up and down with the black transfer roller.
+
+New toner scatter prevention seals have been added to the primary transfer frame to 
+reduce toner contamination from getting inside the transfer belt and onto the transfer rollers (same as CR4).
+The DRS gap between the drum and developer mag roller has also been adjusted (as seen in the process section) 
+and the toner density table has also been optimised to reduce toner scatter.
+
+A new Primary transfer blade has been introduced featuring a new Mylar:
+1. New Mylar
+2. Primary transfer belt
+3. Cleaning Blade
+
+The Mylar has been added to the backside of the primary transfer blade so that waste toner can be 
+transported along the complete length of the blade for even lubrication, therefore reducing friction 
+and the possibility of blade flip.
+
+A flywheel has been added to the primary transfer to increase drive stability
+The drive gear has also been improved for a more smooth drive, reducing speed variation and improving banding.
+Note: Both of these improvements are from the Polaris Pro (MX6500N - MX7500N)
+
+Other improvements are the drive gears on the cleaner unit, the number of the teeth has doubled so that the 
+drive is more stable, reducing the possibility of low frequency banding.
+The material used in the cleaner unit has also changed, the lower section has been reinforced with sheet metal 
+for more stability.
+
+The angle of the secondary transfer unit has been changed by adding spacers to the primary transfer unit to 
+reduce banding on heavy paper stock.
+The hardness of the secondary transfer roller has also been reduced from 45 to 38 to improve toner scatter.
+Hardness measured using the Rockwell Hardness method
+The primary transfer unit is fully backward compatible with both the Polaris office 1 and Polari Pro 1.
+Note If the MX-751U1 (Primary unit for Polaris Office 2) is used in the previous models then the spacers 
+mentioned above should be removed. As a precaution a reminder sheet (seen left) will be included in the 
+MX-751 box
+
+
+
+Polaris Office 1		Polaris Pro 1		Polaris Office 2		Description
+MX-6240N - MX7040N		MX-6500N - MX7500N	MX-6580N - MX7500N		
+
+MX-620B1			MX-620B1		MX-620B1			Primary Transfer Belt Kit 
+											(Life 300K)
+											Transfer Belt
+											Transfer Separation Pawl
+
+MX-620TL			MX-620TL		MX-751TL			Primary Transfer Cleaner Blade 
+											(Life 300K)
+N/A				N/A			MX-751CL			Primary Transfer Cleaner Roller Kit 
+											(Life 300K)
+
+MX-620B2			MX-750B2		MX-620B2			Secondary Transfer Belt Kit 
+											(Life 300K)	
+											Secondary Transfer Belt
+											Secondary Transfer belt Cleaner Roller 
+											(Pro only)
+
+MX-620TG			MX-750TG		MX-620TG			Secondary Transfer Blade Kit 
+											(Life 300K)
+
+MX-620U1			MX-750U1		MX-751U1			Primary Transfer Belt Unit (Complete)
+
+MX-620U2			MX-750U2		MX-751U2			Secondary Transfer Belt Unit 
+											(Complete)
+
+
+FIERY MX-PE12
+-------------
+
+**********************************
+******* NOTES TO BE ADDED ********
+**********************************
+
 
