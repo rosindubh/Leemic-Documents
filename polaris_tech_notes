@@ -358,7 +358,7 @@ Developer 600K copies/prints	Developer 400K copies/prints	Developer 2 million ro
 OTHERS
 ------
 
-tem					Polaris 2 MX6580N - MX7580N			Polaris Pro 2 MX7090N - MX8090N		Life
+Item					Polaris 2 MX6580N - MX7580N			Polaris Pro 2 MX7090N - MX8090N		Life
 Fusing Belt Kit				MX-751FB					MX-800FB				300K
 Fusing Roller Kit			MX-751HK					MX-800HK				300K
 Pressure Roller Kit			MX-750LH					MX-750LH				300K
@@ -709,8 +709,222 @@ MX-620U2			MX-750U2		MX-751U2			Secondary Transfer Belt Unit
 FIERY MX-PE12
 -------------
 
-**********************************
-******* NOTES TO BE ADDED ********
-**********************************
+
+			Polaris Pro				Hercules 2.5				Polaris 2
+
+Model			MX-PE10					MX-PE11					MX-PE12
+
+Type			External				External (light)			Embedded
+
+
+Hardware Platform	Fiery Pro80 IV				Fiery SP30 IV				E300
+
+Software codebase	Fiery FS100 Pro				Fiery FS200 Pro				Fiery FS200
+
+CPU			Intel i5-2400 3.10GHz			Intel Pentium G1820 2.7GHz		Intel Pentium G1820 2.7GHz
+
+Memory			DDR SDRAM 4GB				DDR SDRAM 4GB				DDR3-1333 2GB
+
+HDD			1TB SATA				500GB SATA				500GB SATA
+
+Fiery System OS		Windows 7 Pro				Windows 8.1 Pro				Linux
+
+
+* The external Fiery server  (MX-PE12) is mounted on the rear side of the MFP, but works like an  “embedded RIP”. 
+
+* The Fiery screen uses a Web LCD interface that can be viewed via the MFP UI
+
+* If the customer wants to view the Fiery via Command Work Station (CWS), they will have to use a separate PC ad screen
+
+
+To start the MX-PE12 Fiery
+--------------------------
+
+1. Make sure the power switch on the MX-PE12 is set to ON (I), 
+and then press the power button once to start.
+2. Wait while the MX-PE12 completes the start-up sequence
+
+When the MX-PE12 is ready, the Fiery button in the menu screen 
+on the printer touch panel becomes available.
+
+If it has been enabled in set-up, the MX-PE12 start page will 
+also print automatically when the MX-PE12 is ready for use.
+
+To shut down the MX-PE12
+------------------------
+
+Turn off the printer using the main power switch
+The MXPE12 will automatically shut down after 5 minutes
+
+To Force a system shutdown
+--------------------------
+Important: If the MX-PE12 is unresponsive and it is not possible 
+to shut down the system from the printer, use this procedure to 
+force a system shutdown. Force a shutdown only as a last resort, 
+when the normal shutdown method is unavailable.
+
+Press and hold down the power button on the MX-PE12 for 5 seconds, 
+until the green light goes out and the system powers off.
+
+Calibration
+-----------
+
+There are 3 ways to perform a Fiery Calibration
+Before performing a Fiery Calibration, calibrate the engine (SIM46-24 or SIM46-74 etc)
+
+    Fiery calibration via CWS ES2000/1000
+    Fiery calibration via CWS ColorCal
+    Fiery calibration vis WebLCD ColorCal
+
+We are not going to cover the CWS methods as these are covered on the Polaris Pro hands-on training
+
+
+****************************************************************************************************************************************
+****************************************************************************************************************************************
+
+						NOTES FROM TRAINING COURSE 9 APRIL 2019
+						---------------------------------------
+
+OPTICS AND SCAN LAMP
+-------------------
+
+Old SIT Chart (UKOG-0280FCZZ)	Polaris 1
+New SIT Chart (UKOG-0336FCZZ)   Polaris 2  This is the same as the CR4
+
+New style lamp unit uses 4 LEDS 2 at each end of the waveguide sticks
+
+SIM 1 is used to test the scanner operation
+SIM 6-90 puts the scannner into home position.
+
+PROCESS UNIT
+------------
+
+DSG gap is the gap between the dev cylinder and the drum
+
+NB the 6500/7500 have a silver dot at the front
+
+Developer exit port has been made larger
+
+If SIM 25-02 is interupted within 3 minuites the adjustment is not reflected
+
+Replace filter when replacing drum at 300K
+
+
+DRUM MODULE
+-----------
+
+This now has 2 sets of LED discharge lamps
+
+********************************************
+*** ALL OF THE DRUM MODULES ARE THE SAME ***
+********************************************
+
+The main charge unit cleans at these intervals:
+
+1st  100K - every 10K
+2nd  100K - every  5K
+last 100K - every 2.5K
+
+***********************************************************************************
+*** THE MAIN CHARGE UNITS ARE NOT INTERCHAGEABLE BETWEEN THE 2 TYPES OF MACHINE ***
+***********************************************************************************
+
+TRANSFER UNIT
+-------------
+
+ACS (Auto colour selection)
+
+Error L4-06 is most likely the reverse clutch sticking
+When testing operation be sure to test in both directions
+
+A new oil impregnated roller (Nitrate) for improved cleaning 
+after image transfer. The roller has been grounded and moves
+up and down with the black transfer mechanism.
+
+The primary transfer cleaning blade now has a mylar strip added
+to the back so waste toner can be transported along the blade 
+for even lubrication.
+***************************************************************
+**** THIS NEW TYPE BLADE CAN BE FITTED TO THE OLDER POLARIS ***
+*********************   7080 / 7090   *************************
+************     THERE IS ALSO NEW FIRMWARE    ****************
+***************************************************************
+
+A flywheel has been added for extra stability (prevent banding)
+(Service Bulliten CCE-1412R2)
+
+NB this service bulliten has been replaced by CCE-1412R3
+
+The transfer belt resistance has changed
+
+9.95 - 10.75 OHMs to 8.95 - 9.75 OHMs
+It is a little bit lower to improve banding problems
+
+
+2nd TRANSFER UNIT
+-----------------
+
+MX-751U1 if this is fitted to Polaris Office Pro1 then the spacers should be removed
+A reminder sheet will be included with the unit
+
+
+LASER UNIT
+----------
+
+The Polaris 2 (MX-6580N MX-7580N) use the same laser unit for both machines
+The Polaris Pro 2 (MX-7090N MX8090N) use a different laser unit in each
+machine due to increased speed. The LSU control PWB's are different and LSU 
+is the same, but you cannot order a LSU without the PWB's fitted and are
+therefore NOT compatible
+None of the laser units are compatible with the Polaris 1 series due to a
+new design.
+
+Laser adjustment on the Ploaris 2 is standard (SIM 25-02 and adjust screws)
+Laser adjustment on the Polaris Pro 2 is automatic (no screws to adjust)
+
+
+FUSER UNIT
+----------
+
+There is a screw at the rear to adjust meandering, this screw must never be adjusted.
+There are fans at the front and the rear to cool the fuser roller when copying multiple A4R
+When handling the fuser belt do not touch the outer surface or grab by the edges
+When placing down it should be put vertically without making a sound
+
+IF YOU GET ERROR H2-06 YOU HAVE THE WRONG FUSER FITTED
+
+Fuser pressure setting is variable.
+Settings in Paper Property (on service web page)
+Fuser pressure setting variable in 3 steps
+(-3/ -2/ -1/ 0) Motor speed variable in +/-10
+
+Polaris Office 1 had a guatanteed quality width of 303mm allowing for A3 and A4 + 3mm either side
+Polaris Office 2 has been increased to 319mm
+
+Lower separation pawl has been added, there are now 5 instead of 4.
+
+FUSER UNIT PRO 2
+----------------
+
+Change fusing roller from Sponge Roller to Solid Rubber
+Fusing roller kit dedicated to Pro 2 MX-800HK
+Change the surface/rubber material for Fusing Belt
+Fusing belt kit dedicated for Pro 2 MX-800FB
+
+Discriminatioin: Tape on the roll paper
+Pro 2 NBLTH0663FCZ3 Transparent
+Office 2 NBLTH0663FCZ2 Green
+
+Change of the rubber material of Paper Transport Roller After Fusing from
+EPDM rubber (ethylene propylene diene methylene rubber) to Silicone
+
+Fuser belt refresh kit (SIM 6-7)
+
+
+PAPER FEED
+----------
+
+FPFD sensor added between paper pickup and fuser out
+
 
 
