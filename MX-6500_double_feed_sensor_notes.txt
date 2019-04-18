@@ -1,0 +1,27 @@
+# notes on the double feed sensor in the MX-6500 copier
+# phil welsby 17 april 2019
+
+ERROR FF-00 Double feed detection trouble (PCU)
+
+SIM 30-10 Used to check the operations of the Main unit double feed sensor.
+MUST NOT BE USED UNLESS A SPECIAL CHANGE IS REQUIRED
+
+SDFS_S (Double feed detection JAM/Accompanied feed JAM)
+
+-------------------------------------------------------------------------------
+| PDFS-R | Double feed detection sensor-R | Detects double or multi fed paper.|
+-----------------------------------------------------------------------------
+| PDFS-T | Double feed detection sensor-T | Detects double or multi fed paper.|
+-------------------------------------------------------------------------------
+
+DFS sensor 
+----------
+Outline of OperationThe double-feed sensor is incorporated in the  paper 
+transport sec-tion of 120/105cpm machines, and it detects double feed.
+Paper transport stops when double feed is detected.
+
+DPF	Double feed detection    connector nunber CN14	pin number 15
+
+
+
+
