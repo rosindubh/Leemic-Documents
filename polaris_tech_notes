@@ -926,5 +926,11 @@ PAPER FEED
 
 FPFD sensor added between paper pickup and fuser out
 
-
+PED cis sensor
+Operation of Image position sensor
+It detects the position of the paper transferred by the contact image
+sensor (CIS) and automatically adjusts the off center.
+CIS: Contact Image Sensor
+It is a contact image sensor integrated with the light source, the
+lens (Selfoc ) and the sensor.
 
