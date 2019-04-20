@@ -1,0 +1,22 @@
+# page for things to try on machines
+# phil welsby 19 april 2019
+
+MX-6240/7040/6500/7500/5050
+
+22-05 (The firmware type can be displayed by SIM22-5)
+56-04 Job log data backup to USB
+56-05 Import SIM22-06 data to USB
+56-06 Used to import the SIM23-2 data to a USB
+flash drive in the TEXT format.
+56-7 Used to import the syslog data to a USB
+flash drive.
+56-08 ADD COLOUR PROFILES
+56-99 Export all log data
+65-1 Touch panel adjustment
+
+
+Service login to the web interface is:
+IP/service_account.html
+User Name: service
+Password:  service
+

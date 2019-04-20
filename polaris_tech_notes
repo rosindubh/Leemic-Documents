@@ -934,3 +934,48 @@ CIS: Contact Image Sensor
 It is a contact image sensor integrated with the light source, the
 lens (Selfoc ) and the sensor.
 
+-----------------------------------------------------------------------------
+
+There is a version of DSK built into all machines now
+
+There are 2 flash ROMs, do not interchange or an error A0-19 will occur
+
+The operation panel on the Polaris 2 is not compatible with the
+operation panel on the Polaris 1
+
+SIM 5-2 turns the fuser lamps on/off
+
+Service login to the web interface is:
+IP/service_account.html
+User Name: service
+Password:  service
+
+Firmware can be uploaded via FTP
+ftp://ip (in a file browser)
+This will open a folder called lp, drag and drop the firmware file to this folder
+You can also drag and drop files to this folder (tiff, jpeg, word etc)
+Will also print PRN files (print to file)
+
+MX-753DF is the ADF/DSPF pickup kit
+
+----------------------------------------------------------------------------------
+
+BLACK STREAK REDUCTION
+----------------------
+
+SIM 53-9 (Function (Purpose) DSPF dirt detection setting)
+SIM 53-10 (Function (Purpose) DSPF dirt detection execution.)
+
+----------------------------------------------------------------------------------
+
+In order to print in colour without the use of a PIN number
+find other user, and change from guest to user
+(MACHINE ADJUSTMENT ADJUSTS SIMULATION SETTINGS
+
+DSDF SHADING SHEET (UKOG-0333FCZZ)
+
+PANTONE
+-------
+SIM 56-08 ADD COLOUR PROFILES
+
+
