@@ -1,0 +1,120 @@
+# phil welsby - 5 nov 2019
+
+____________
+SENSOR CHECK
+------------
+SIM-30-1 MAIN MACHINE SENSOR CHECK
+SIM 30-2 TRAY SENSOR CHECK
+SIM 30-10 DOUBLE FEED SENSOR (PCU)
+_______
+SCANNER
+-------
+SIM 1
+SIM 5-3 SCAN LAMP
+_______________
+DOCUMENT FEEDER
+---------------
+SIM 2
+SIM 22-12 ADF MISSFEED POSITIONS
+SIM 53-10 ADF DIRT DETECTION
+________
+FINISHER
+--------
+SIM 3-2 SENSORS
+SIM 3-3 LOAD
+SIM 22-8 COUNTER VALUE OF FINISHER
+________________
+Tandem Tray Unit
+----------------
+SIM 4-2 SENSORS
+SIM 4-3 LOAD
+SIM 4-5 PAPER FEED/CLUTCH
+__________
+LCD DIPLAY
+----------
+SIM 5-1 Used to check the operation of the display, LCD in the operation panel, and control circuit.
+SIM 65-1 LCD PANEL CALIBRATE
+SIM 65-5 OP PANEL KEYS CHECK
+_____
+FUSER
+-----
+SIM 5-2 FUSER LAMPS
+SIM 6-6 PRESSURE RELEASE
+SIM 22-13 OPERATION TIMING OF FUSER
+SIM 43-35 FUSER NIP WIDTH
+_____
+DRUMS
+-----
+SIM 5-4 DISCHARGE LAMPS
+SIM 22-13 OPERATION TIME OF DRUM
+_________
+DEVELOPER
+---------
+SIM 22-13 OPERATION TIMING OF DEV UNIT
+_____
+TONER
+-----
+SIM 22-13 OPERATION TIMING OF TONER CARTRIDGE
+SIM 22-14 STATUS OF TONER CARTRIDGE
+____________________________
+PAPER TRANSPORT/EXIT SECTION
+---------------
+SIM 6-1 Used to check the operations of the load in the paper transport system (clutches and solenoids) and the control circuits.
+SIM 22-9 PRINT QUANTITY OF EACH PAPER FEED UNIT
+____
+FANS
+----
+SIM 6-2
+_____
+ITB 1
+-----
+SIM 6-3
+____________
+MAIN CHARGER
+------------
+SIM 6-4
+_________________________
+RESET TO FACRORY SETTINGS
+-------------------------
+SIM 6-90
+_____
+AGING
+-----
+SIM 7
+_______
+JAMMING
+-------
+SIM 22-42 JAM/TROUBLE DATA
+SIM 22-43 JAM DATA DETAILS
+SIM 23-80 LIST OF PAPER TRANSPORT TIME WHEN JAM OCCURED
+___________
+TEMPERATURE
+SIM 44-14 TEMPERATURE / HUMIDITY SENSOR
+______
+BACKUP
+------
+SIM 56
+______
+MEMORY
+------
+SIM 60-1 MEMORY CHECK
+___
+HDD
+---
+SIM 62-2 CHECK READ WRITE OF THE HDD
+SIM 62-6 SELF DIAGNOSIS OF THE HDD
+SIM 62-7 HDD SELF DIGNOSIS PRINTOUT
+
+_____
+LASER
+-----
+SIM 61-1 MOTOR AND LASER DETECTION
+SIM 61-4 IMAGE SKEW PRINTOUT
+____________
+ROM VERSIONS
+------------
+SIM 22-5 Used to check the ROM version of each unit (section)
+         The ROM version of the installed unit in each section is displayed.
+         When there is any trouble in the software, use this simulation to
+         check the ROM version, and upgrade the version if necessary.
+     
